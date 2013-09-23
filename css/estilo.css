@@ -1,0 +1,842 @@
+body{background-color:#bdbdbd;font-family:Arial;padding:0;margin:0;}
+body #superior1{background-color:#00508a;border-bottom:5px solid #00325a;height:35px;text-align:center;position:fixed;width:100%;z-index:4;}
+body #superior1 #otrosSuperior{display:inline-block;vertical-align:top;margin-left:50px;padding:0;}
+body #superior1 #otrosSuperior select{-webkit-appearance:button;-webkit-border-radius:2px;-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.1);-webkit-padding-end:10px;-webkit-padding-start:2px;-webkit-user-select:none;background-image:url("../img/otros/select-arrow.png"),-webkit-linear-gradient(#fafafa,#f4f4f4 40%,#e5e5e5);background-size:20px;background-position:center right;background-repeat:no-repeat;border:1px solid #aaa;color:#555;font-size:inherit;margin:0;margin-top:6px;overflow:hidden;padding-top:2px;padding-bottom:2px;text-overflow:ellipsis;vertical-align:top;white-space:nowrap}
+body #superior1 #otrosSuperior .txtBuscar{height:19px;font-size:16px;margin-top:6px;margin-right:0;vertical-align:top;width:150px}
+body #superior1 #otrosSuperior .btnBuscar{background-color:#fff;border:0;border-left:5px solid #5a5a5a;color:#5a5a5a;font-size:18px;height:25px;margin-top:6px;margin-left:-4px;margin-right:10px}
+body #superior1 #otrosSuperior #desplegableIdioma{display:inline-block;cursor:pointer;color:#fff;font-size:12px;height:25px;padding-top:10px;text-align:center;vertical-align:top;width:75px;}
+body #superior1 #otrosSuperior #desplegableIdioma #contenedorIdioma{height:0;width:0;transition:height .1s ease-in;}
+body #superior1 #otrosSuperior #desplegableIdioma #contenedorIdioma h1{margin-left:9999px}
+body #superior1 #otrosSuperior #desplegableIdioma #contenedorIdioma img{height:0;width:0}
+body #superior1 #otrosSuperior #desplegableIdioma:hover #contenedorIdioma{background:#eee;border:2px solid #444;border-bottom-right-radius:10px;border-bottom-left-radius:10px;border-top:5px solid #00325a;color:#444;height:50px;margin-top:11px;margin-left:-37px;width:150px;}
+body #superior1 #otrosSuperior #desplegableIdioma:hover #contenedorIdioma h1{font-size:12px;margin-left:0;padding:0;padding-top:5px;padding-bottom:10px;margin:0}
+body #superior1 #otrosSuperior #desplegableIdioma:hover #contenedorIdioma img{height:13px;width:18px}
+body #superior1 #otrosSuperior #desplegableRegistro{display:inline-block;cursor:pointer;color:#fff;font-size:12px;height:25px;padding-top:10px;text-align:center;vertical-align:top;width:75px;}
+body #superior1 #otrosSuperior #desplegableRegistro #contenedorRegistro{height:0;width:0;margin-top:-99999px;transition:height .1s ease-in;}
+body #superior1 #otrosSuperior #desplegableRegistro #contenedorRegistro h1{margin-left:9999px}
+body #superior1 #otrosSuperior #desplegableRegistro #contenedorRegistro .txtDesplegable{height:0;width:0;font-size:0;margin-left:9999px}
+body #superior1 #otrosSuperior #desplegableRegistro #contenedorRegistro .btnRegistro{height:0;width:0;font-size:0;margin-left:9999px}
+body #superior1 #otrosSuperior #desplegableRegistro #contenedorRegistro a{text-decoration:none;}
+body #superior1 #otrosSuperior #desplegableRegistro #contenedorRegistro a img{height:0;margin-left:9999px;width:0}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro{background:#eee;border:2px solid #444;border-bottom-right-radius:10px;border-bottom-left-radius:10px;border-top:5px solid #00325a;color:#444;height:260px;margin-top:11px;margin-left:-100px;width:290px;}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro h1{font-size:14px;margin-left:0;padding:0;padding-top:5px;margin:0}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro .txtDesplegable{font-size:16px;margin-top:10px;margin-left:0;padding-top:5px;padding-bottom:5px;height:20px;width:250px}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro .txtDesplegable:hover{border:2px solid #808080}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro .btnRegistro{border:2px solid #00325a;border-radius:5px;background-color:#027ac1;color:#fff;font-size:16px;height:30px;margin-top:5px;margin-left:0;margin-bottom:10px;width:256px}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro .btnRegistro:hover{border:2px solid #008fff}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro a{text-decoration:none;}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro a img{height:25px;margin-left:0;width:154px}
+body #superior1 #otrosSuperior #desplegableInicio{display:inline-block;cursor:pointer;color:#fff;font-size:12px;height:25px;padding-top:10px;text-align:center;vertical-align:top;width:75px;}
+body #superior1 #otrosSuperior #desplegableInicio #contenedorInicio{height:0;width:0;margin-top:-99999px;transition:height .1s ease-in;}
+body #superior1 #otrosSuperior #desplegableInicio #contenedorInicio h1{margin-left:9999px}
+body #superior1 #otrosSuperior #desplegableInicio #contenedorInicio .txtDesplegable{height:0;width:0;font-size:0;margin-left:9999px}
+body #superior1 #otrosSuperior #desplegableInicio #contenedorInicio .btnRegistro{height:0;width:0;font-size:0;margin-left:9999px}
+body #superior1 #otrosSuperior #desplegableInicio #contenedorInicio a{text-decoration:none;}
+body #superior1 #otrosSuperior #desplegableInicio #contenedorInicio a img{height:0;margin-left:9999px;width:0}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio{background:#eee;border:2px solid #444;border-bottom-right-radius:10px;border-bottom-left-radius:10px;border-top:5px solid #00325a;color:#444;height:220px;margin-top:11px;margin-left:-100px;width:290px;}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio h1{font-size:14px;margin-left:0;padding:0;padding-top:5px;margin:0}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio .txtDesplegable{font-size:16px;margin-top:10px;margin-left:0;padding-top:5px;padding-bottom:5px;height:20px;width:250px}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio .txtDesplegable:hover{border:2px solid #808080}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio .btnRegistro{border:2px solid #00325a;border-radius:5px;background-color:#027ac1;color:#fff;font-size:16px;height:30px;margin-top:5px;margin-left:0;margin-bottom:10px;width:256px}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio .btnRegistro:hover{border:2px solid #008fff}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio a{text-decoration:none;border:none;}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio a img{border:none;text-decoration:none;height:25px;margin-left:0;width:154px}
+body #contenido{background-color:#fff;-webkit-box-shadow:0 10px 32px #000;-moz-box-shadow:0 10px 32px #000;box-shadow:0 10px 32px #000;margin:0 auto 50px auto;padding-top:45px;height:100%;width:1150px;}
+body #contenido #banner{height:100px;margin-bottom:5px;width:100%;}
+body #contenido #banner img{width:392px}
+body #contenido #galeria{height:354px;margin-bottom:5px;width:100%;}
+body #contenido #galeria #galeriaPrincipal{border:1px solid #808080;display:inline-block;height:352px;width:648px;}
+body #contenido #galeria #galeriaPrincipal img{height:352px;width:648px}
+body #contenido #galeria #galeriaPrincipal iframe{height:352px;width:648px}
+body #contenido #galeria #divisor1{display:inline-block;height:174px;margin-left:0;padding-left:0;vertical-align:top;width:494px;}
+body #contenido #galeria #divisor1 .imgImportante1{display:inline-block;height:173px;vertical-align:top;width:244px;}
+body #contenido #galeria #divisor1 .imgImportante1 img{height:173px;width:244px;z-index:1}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria{background-color:rgba(0,0,0,0.7);background:url("rgba.php?name=black&a=70");color:#fff;height:45px;margin-top:-53px;position:absolute;padding-top:5px;text-align:center;vertical-align:bottom;width:244px;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;z-index:2;}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria p{font-size:0;height:10px;margin:20px auto 0 auto;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;width:10px;}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria p a{text-decoration:none;color:#fff}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria:hover{height:165px;margin-top:-175px;}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria:hover p{background:#005d94;border:2px solid #003857;border-radius:55px;-moz-border-radius:55px;-webkit-border-radius:55px;color:#fff;cursor:pointer;font-size:20px;height:60px;margin:20px auto 0 auto;padding-top:40px;width:100px}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria:hover p:hover{background:#003857;border:2px solid #005d94}
+body #contenido #galeria #divisor2{height:174px;vertical-align:top;margin-top:-11.2em;margin-left:654px;width:496px;}
+body #contenido #galeria #divisor2 .imgImportante2{display:inline-block;height:173px;vertical-align:top;width:244px;}
+body #contenido #galeria #divisor2 .imgImportante2 img{height:173px;width:244px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria{background-color:rgba(0,0,0,0.7);background:url("rgba.php?name=black&a=70");color:#fff;height:45px;margin-top:-53px;position:absolute;padding-top:5px;text-align:center;vertical-align:bottom;width:244px;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;z-index:2;}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria p{font-size:0;height:10px;margin:20px auto 0 auto;-webkit-transition:all 1s ease;-moz-transition:all 1s ease;width:10px;}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria p a{text-decoration:none;color:#fff}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria:hover{height:165px;margin-top:-175px;}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria:hover p{background:#005d94;border:2px solid #003857;border-radius:55px;-moz-border-radius:55px;-webkit-border-radius:55px;color:#fff;cursor:pointer;font-size:20px;height:60px;margin:20px auto 0 auto;padding-top:40px;width:100px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria:hover p:hover{background:#003857;border:2px solid #005d94}
+body #contenido #tecnologias{background-color:#a2a2a2;border-top:1px solid #a2a2a2;border-bottom:1px solid #a2a2a2;color:#fff;height:48px;width:100%;}
+body #contenido #tecnologias .logoLenguaje{border:1px solid #a2a2a2;display:inline-block;font-size:0;height:35px;margin:5px 4px 0 4px;margin-right:0;vertical-align:top;width:35px;}
+body #contenido #tecnologias .logoLenguaje a{background-color:#a2a2a2;color:#a2a2a2;text-decoration:none;}
+body #contenido #tecnologias .logoLenguaje a img{width:35px;height:35px}
+body #contenido #tecnologias .logoLenguaje .tip{background-color:#a2a2a2}
+body #contenido #tecnologias .logoLenguaje:hover .tip{background:#005d94;border-top-left-radius:10px;border-bottom-right-radius:10px;text-align:center;font-size:16px;margin-top:-70px;position:absolute;padding:5px 10px 5px 10px;-webkit-transition:all .2s ease;-moz-transition:all 1s ease;z-index:3}
+body #contenido #contenedorNoticias{display:inline-block;padding-top:20px;margin-top:0;margin-left:5px;width:841px;-moz-box-shadow:inset -10px 0 10px rgba(238,238,238,0.5);-webkit-box-shadow:inset -10px 0 10px rgba(238,238,238,0.5);box-shadow:inset -10px 0 10px rgba(238,238,238,0.5);}
+body #contenido #contenedorNoticias #adSense{text-align:center;}
+body #contenido #contenedorNoticias #adSense img{width:90%}
+body #contenido #contenedorNoticias .noticia{border-bottom:2px dotted #d8d8d8;margin-bottom:25px;padding-bottom:20px;width:100%;}
+body #contenido #contenedorNoticias .noticia .tituloNoticia{color:#003857;font-size:28px;font-weight:bold;padding-left:10px;padding-top:5px;padding-bottom:5px;width:821px}
+body #contenido #contenedorNoticias .noticia #autor{font-size:12px;text-align:right;margin-right:20px;width:811px;}
+body #contenido #contenedorNoticias .noticia #autor a{color:#008ede;text-decoration:none}
+body #contenido #contenedorNoticias .noticia #sociales{font-size:10px;text-align:right;margin-top:6px;margin-right:20px;margin-bottom:10px;width:811px;}
+body #contenido #contenedorNoticias .noticia #sociales a{cursor:pointer;text-decoration:none}
+body #contenido #contenedorNoticias .noticia #imagenNoticia{height:290px;margin:5px auto 5px auto;width:630px;}
+body #contenido #contenedorNoticias .noticia #imagenNoticia img{border:1px dotted #808080;height:310px;width:630px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia iframe{height:310px;width:630px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia #verMasImg{background-color:rgba(0,0,0,0.7);background:url("rgba.php?name=black&a=70");border-top:2px solid #000;border-left:2px solid #000;border-top-left-radius:20px;color:#fff;margin-left:456px;text-decoration:none;height:25px;margin-top:-36px;padding-top:5px;padding-left:10px;padding-right:10px;position:absolute}
+body #contenido #contenedorNoticias .noticia #imagenNoticia #verMasImg:hover{background-color:#000;cursor:pointer}
+body #contenido #contenedorNoticias .noticia #informacionNoticia{behavior:url("/css/border-radius.htc");-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;margin-left:10px;margin-right:10px;margin-top:40px;width:811px;}
+body #contenido #contenedorNoticias .noticia #informacionNoticia .textoNoticia{font-family:Arial;text-align:justify;line-height:20px;margin-top:5px}
+body #contenido #contenedorNoticias #noPaginas{display:inline-block;vertical-align:top;margin-bottom:90px;width:695px;}
+body #contenido #contenedorNoticias #noPaginas .pagina{background-color:#005d94;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border:1px solid #003857;display:inline-block;color:#fff;cursor:pointer;height:20px;padding-left:10px;padding-right:10px;padding-top:5px;margin-left:2px;text-align:center}
+body #contenido #contenedorNoticias #noPaginas .pagina:hover{background-color:#008ede}
+body #contenido #contenedorBlog{display:inline-block;padding:20px;margin-top:0;margin-left:5px;padding-bottom:100px;width:801px;-moz-box-shadow:inset -10px 0 10px rgba(238,238,238,0.5);-webkit-box-shadow:inset -10px 0 10px rgba(238,238,238,0.5);box-shadow:inset -10px 0 10px rgba(238,238,238,0.5);}
+body #contenido #contenedorBlog .noticiaBlog{margin-bottom:25px;padding-bottom:20px;width:100%;}
+body #contenido #contenedorBlog .noticiaBlog h1{color:#003857;padding:0;margin:0;width:801px}
+body #contenido #contenedorBlog .noticiaBlog #sociales{float:right;margin-left:20px;margin-right:5px;width:100px;}
+body #contenido #contenedorBlog .noticiaBlog #sociales .redSocial{border:1px dotted #808080;padding-top:5px;text-align:center;margin-top:4px;width:100%}
+body #contenido #contenedorBlog .noticiaBlog p{line-height:23px;text-align:justify;margin-bottom:10px}
+body #contenido #contenedorBlog .noticiaBlog img{border:1px dotted #808080;height:310px;margin-top:10px;width:630px}
+body #contenido #contenedorBlog #autorBlog{background-color:#e5e5e5;border:2px dotted #b4b4b4;border-radius:20px;-moz-border-radius:20px;-webkit-border-radius:20px;height:120px;width:100%;}
+body #contenido #contenedorBlog #autorBlog #imagen{display:inline-block;margin-left:10px;margin-right:10px;width:100px;}
+body #contenido #contenedorBlog #autorBlog #imagen img{background-color:#eee;border-radius:50px;-moz-border-radius:50px;-webkit-border-radius:50px;height:100px;margin-top:10px;width:100px;-webkit-transform:rotate(0)}
+body #contenido #contenedorBlog #autorBlog #imagen img:hover{-webkit-transform:rotate(720deg);transition:all .9s ease-in;-moz-transition:all .9s ease-in}
+body #contenido #contenedorBlog #autorBlog #informacion{display:inline-block;height:100px;padding:10px;width:635px;vertical-align:top;}
+body #contenido #contenedorBlog #autorBlog #informacion h3{display:inline-block;color:#474747;padding:0;margin:0;margin-top:10px}
+body #contenido #contenedorBlog #autorBlog #informacion h4{display:inline-block;color:#7b7b7b;padding:0;margin:0;margin-left:10px;width:335px}
+body #contenido #contenedorBlog #autorBlog #informacion img{display:inline-block;height:15px;margin-top:10px;width:20px}
+body #contenido #contenedorBlog #autorBlog #informacion h5{color:#696969;display:inline-block;font-size:16px;padding:0;margin:0;margin-bottom:10px}
+body #contenido #contenedorBlog #autorBlog #informacion a{text-decoration:none;color:#7a7a7a}
+body #contenido #contenedorBlog #autorBlog #informacion a:hover{color:#474747}
+body #contenido #contenedorBlog #disqusComentarios{margin-top:50px}
+body #contenido #contenedorContacto{display:inline-block;padding:20px;margin-top:0;margin-left:5px;padding-bottom:100px;width:801px;-moz-box-shadow:inset -10px 0 10px rgba(238,238,238,0.5);-webkit-box-shadow:inset -10px 0 10px rgba(238,238,238,0.5);box-shadow:inset -10px 0 10px rgba(238,238,238,0.5);}
+body #contenido #contenedorContacto #contacto{margin-bottom:25px;padding-bottom:20px;width:100%;}
+body #contenido #contenedorContacto #contacto h1{color:#003857;padding:0;margin:0;width:801px}
+body #contenido #contenedorContacto #contacto #formulario{margin:20px auto 0 auto;width:700px;}
+body #contenido #contenedorContacto #contacto #formulario #fila #label{display:inline-block;padding-top:18px;font-weight:bold;font-size:18px;vertical-align:top;width:200px}
+body #contenido #contenedorContacto #contacto #formulario #fila #cajaTexto{display:inline-block;width:490px}
+body #contenido #contenedorContacto #contacto #formulario #btnContacto1{margin-top:15px;float:right;}
+body #contenido #contenedorContacto #contacto #formulario #btnContacto1 .btnContacto{background:#eee;border:0 solid #808080;border-radius:10px;-moz-box-shadow:0 0 10px #808080;-webkit-box-shadow:0 0 10px #808080;box-shadow:0 0 10px #808080;font-weight:bold;font-size:16px;padding:15px;padding-top:7px;padding-bottom:7px;margin-right:15px;margin-bottom:25px}
+body #contenido #contenedorContacto #contacto #formulario #btnContacto1 .btnContacto:hover{-moz-box-shadow:0 0 0 #808080;-webkit-box-shadow:0 0 0 #808080;box-shadow:0 0 0 #808080;-moz-box-shadow:inset 0 0 10px #808080;-webkit-box-shadow:inset 0 0 10px #808080;box-shadow:inset 0 0 10px #808080}
+body #contenido #contenedorContacto #mapaContacto{margin-top:55px;margin-bottom:25px;padding-bottom:20px;width:100%;}
+body #contenido #contenedorContacto #mapaContacto #mapa{-moz-box-shadow:0 0 10px #808080;-webkit-box-shadow:0 0 10px #808080;box-shadow:0 0 10px #808080;background:#eee;border:0 dotted #808080;border-radius:20px;height:300px;margin:0 auto 0 auto;width:700px}
+body #contenido #lateral{display:inline-block;vertical-align:top;padding-top:10px;margin-top:0;width:297px;}
+body #contenido #lateral .transmision{border:1px dotted #808080;padding:10px;margin-top:10px;width:273px;}
+body #contenido #lateral .transmision h5{color:#003857;font-size:17px;padding:0;margin-bottom:5px;text-align:center;margin:0}
+body #contenido #lateral .transmision h6{color:#003857;font-size:13px;padding:0;text-align:center;margin:0;}
+body #contenido #lateral .transmision h6 a{color:#005d94}
+body #contenido #lateral .transmision h6 a:hover{color:#00a3ff}
+body #contenido #lateral .transmision #horariosTV{margin:30px auto 10px auto;width:200px;}
+body #contenido #lateral .transmision #horariosTV .bandera{display:inline-block;margin-top:4px;width:137px;}
+body #contenido #lateral .transmision #horariosTV .bandera img{cursor:pointer}
+body #contenido #lateral .transmision #horariosTV .hora{color:#003857;display:inline-block;font-size:13px;text-align:right;margin-top:4px;vertical-align:top}
+body #contenido #lateral #relevantes{border:1px dotted #808080;margin-top:10px;width:293px;}
+body #contenido #lateral #relevantes h1{background-color:#eee;color:#003857;text-align:center;padding:0;margin:0}
+body #contenido #lateral #relevantes .relevante1{background-color:#002338;color:#fff;cursor:pointer;font-weight:bold;padding:10px;width:273px;}
+body #contenido #lateral #relevantes .relevante1 .noRelevante{display:inline-block;font-size:40px;text-align:center;width:50px}
+body #contenido #lateral #relevantes .relevante1 .textoRelevante{display:inline-block;font-size:23px;padding-top:10px;vertical-align:top;width:210px}
+body #contenido #lateral #relevantes .relevante1:hover{background-color:#6bcaff}
+body #contenido #lateral #relevantes .relevante2{background-color:#003b5d;cursor:pointer;color:#fff;font-weight:bold;padding:10px;width:273px;}
+body #contenido #lateral #relevantes .relevante2 .noRelevante{display:inline-block;font-size:40px;text-align:center;width:50px}
+body #contenido #lateral #relevantes .relevante2 .textoRelevante{display:inline-block;font-size:23px;padding-top:10px;vertical-align:top;width:210px}
+body #contenido #lateral #relevantes .relevante2:hover{background-color:#27b1ff}
+body #contenido #lateral #relevantes .relevante3{background-color:#004d79;cursor:pointer;color:#fff;font-weight:bold;padding:10px;width:273px;}
+body #contenido #lateral #relevantes .relevante3 .noRelevante{display:inline-block;font-size:40px;text-align:center;width:50px}
+body #contenido #lateral #relevantes .relevante3 .textoRelevante{display:inline-block;font-size:23px;padding-top:10px;vertical-align:top;width:210px}
+body #contenido #lateral #relevantes .relevante3:hover{background-color:#009cf4}
+body #contenido #lateral #relevantes .relevante4{background-color:#006198;color:#fff;cursor:pointer;font-weight:bold;padding:10px;width:273px;}
+body #contenido #lateral #relevantes .relevante4 .noRelevante{display:inline-block;font-size:40px;text-align:center;width:50px}
+body #contenido #lateral #relevantes .relevante4 .textoRelevante{display:inline-block;font-size:23px;padding-top:10px;vertical-align:top;width:210px}
+body #contenido #lateral #relevantes .relevante4:hover{background-color:#0078bc}
+body #contenido #lateral #relevantes .relevante5{background-color:#006ca9;color:#fff;cursor:pointer;font-weight:bold;padding:10px;width:273px;}
+body #contenido #lateral #relevantes .relevante5 .noRelevante{display:inline-block;font-size:40px;text-align:center;width:50px}
+body #contenido #lateral #relevantes .relevante5 .textoRelevante{display:inline-block;font-size:23px;padding-top:10px;vertical-align:top;width:210px}
+body #contenido #lateral #relevantes .relevante5:hover{background-color:#006ca9}
+body #contenido #lateral #relevantes .relevante6{background-color:#0078bc;cursor:pointer;color:#fff;font-weight:bold;padding:10px;width:273px;}
+body #contenido #lateral #relevantes .relevante6 .noRelevante{display:inline-block;font-size:40px;text-align:center;width:50px}
+body #contenido #lateral #relevantes .relevante6 .textoRelevante{display:inline-block;font-size:23px;padding-top:10px;vertical-align:top;width:210px}
+body #contenido #lateral #relevantes .relevante6:hover{background-color:#0087d3}
+body #contenido #lateral #encuesta{border:1px dotted #808080;padding:10px;margin-top:10px;width:273px;}
+body #contenido #lateral #encuesta h2{color:#003857;font-size:25px;padding:0;margin-bottom:5px;text-align:center;margin:0}
+body #contenido #lateral #encuesta #contenedorEncuesta{margin:10px auto 0 auto;width:200px;}
+body #contenido #lateral #encuesta #contenedorEncuesta .rdBtn{display:inline-block;text-align:center;width:40px;}
+body #contenido #lateral #encuesta #contenedorEncuesta .rdBtn .radioButton{color:#f00}
+body #contenido #lateral #encuesta #contenedorEncuesta .lbl{display:inline-block;font-size:18px;vertical-align:top;width:130px}
+body #contenido #lateral #encuesta #contenedorEncuesta .btnEnviar{text-align:right;width:200px;}
+body #contenido #lateral #encuesta #contenedorEncuesta .btnEnviar .btnEnviarEncuesta{background:#eee;border:0 solid #808080;border-radius:10px;-moz-box-shadow:0 0 10px #808080;-webkit-box-shadow:0 0 10px #808080;box-shadow:0 0 10px #808080;font-weight:bold;font-size:16px;padding:10px;padding-top:7px;padding-bottom:7px;margin-top:5px;margin-bottom:25px}
+body #contenido #lateral #encuesta #contenedorEncuesta .btnEnviar .btnEnviarEncuesta:hover{-moz-box-shadow:0 0 0 #808080;-webkit-box-shadow:0 0 0 #808080;box-shadow:0 0 0 #808080;-moz-box-shadow:inset 0 0 10px #808080;-webkit-box-shadow:inset 0 0 10px #808080;box-shadow:inset 0 0 10px #808080}
+body #contenido #lateral #rentaEspacio1{border:1px dotted #808080;padding:10px;margin-top:10px;width:273px;}
+body #contenido #lateral #rentaEspacio1 h1{color:#003857;font-size:25px;padding:0;padding-top:80px;padding-bottom:80px;margin-bottom:5px;text-align:center;margin:0}
+body #contenido #lateral #rentaEspacio2{border:1px dotted #808080;padding:10px;margin-top:10px;width:273px;}
+body #contenido #lateral #rentaEspacio2 h1{color:#003857;font-size:25px;padding:0;padding-top:80px;padding-bottom:80px;margin-bottom:5px;text-align:center;margin:0}
+body #contenido #footer{background-color:#5a5a5a;color:#e7e9e0;font-size:14px;padding-top:20px;padding-bottom:20px;text-align:center;width:100%;}
+body #contenido #footer a{color:#e7e9e0;font-size:16px;margin-top:20px;margin-bottom:60px;text-decoration:none}
+body #contenido #footer a:hover{color:#c2c4bc}
+@media screen and (max-width: 1024px){body #superior1{text-align:left;position:fixed;width:100%;z-index:4;}
+body #superior1 #otrosSuperior{margin-left:10px;}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro{margin-left:-130px}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio{margin-left:-190px}
+body #contenido{-webkit-box-shadow:0 0 0 #000;-moz-box-shadow:0 0 0 #000;box-shadow:0 0 0 #000;width:1024px;margin:0 auto 0 auto;}
+body #contenido #banner img{height:100px;width:390px}
+body #contenido #galeria #galeriaPrincipal{width:520px;}
+body #contenido #galeria #galeriaPrincipal img{width:520px}
+body #contenido #galeria #galeriaPrincipal iframe{width:520px}
+body #contenido #galeria #divisor1{width:496px;}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria p{text-indent:-9999px}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria:hover p{text-indent:0}
+body #contenido #galeria #divisor2{margin-left:525px;width:496px;}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria p{text-indent:-9999px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria:hover p{text-indent:0}
+body #contenido #contenedorNoticias{margin-left:0;width:700px;}
+body #contenido #contenedorNoticias .noticia .tituloNoticia{width:690px}
+body #contenido #contenedorNoticias .noticia #autor{width:690px}
+body #contenido #contenedorNoticias .noticia #sociales{width:690px}
+body #contenido #contenedorNoticias .noticia #informacionNoticia{width:670px}
+body #contenido #contenedorBlog{margin-left:0;width:670px;}
+body #contenido #contenedorBlog .noticiaBlog h1{width:670px}
+body #contenido #contenedorBlog .noticiaBlog p{line-height:23px;text-align:justify;margin-bottom:10px}
+body #contenido #contenedorBlog .noticiaBlog img{border:1px dotted #808080;height:310px;margin-top:10px;width:630px}
+body #contenido #contenedorBlog #autorBlog{background-color:#e5e5e5;border:2px dotted #b4b4b4;border-radius:20px;height:120px;width:100%;}
+body #contenido #contenedorBlog #autorBlog #imagen{display:inline-block;margin-left:10px;margin-right:10px;width:100px;}
+body #contenido #contenedorBlog #autorBlog #imagen img{background-color:#eee;border-radius:50px;height:100px;margin-top:10px;width:100px;-webkit-transform:rotate(0)}
+body #contenido #contenedorBlog #autorBlog #imagen img:hover{-webkit-transform:rotate(720deg);transition:all .9s ease-in;-moz-transition:all .9s ease-in}
+body #contenido #contenedorBlog #autorBlog #informacion{display:inline-block;height:100px;padding:10px;width:500px;vertical-align:top;}
+body #contenido #contenedorBlog #autorBlog #informacion h4{width:210px}
+body #contenido #contenedorContacto{width:670px;}
+body #contenido #contenedorContacto #contacto #formulario{width:660px;}
+body #contenido #contenedorContacto #contacto #formulario #fila #label{width:200px}
+body #contenido #contenedorContacto #contacto #formulario #fila #cajaTexto{width:360px}
+body #contenido #contenedorContacto #mapaContacto{width:640px;}
+body #contenido #contenedorContacto #mapaContacto #mapa{width:660px}
+}@media screen and (max-width: 800px){body #superior1{padding-left:70px;height:auto;}
+body #superior1 #otrosSuperior{margin-left:150px;margin-top:-5px;margin-bottom:5px;}
+body #superior1 #otrosSuperior #desplegableIdioma{margin-top:-34px;margin-left:-120px}
+body #superior1 #otrosSuperior #desplegableIdioma:hover{background-color:#0084ec;}
+body #superior1 #otrosSuperior #desplegableIdioma:hover #contenedorIdioma{margin-left:-40px}
+body #superior1 #otrosSuperior #desplegableRegistro{margin-top:-34px}
+body #superior1 #otrosSuperior #desplegableRegistro:hover{background-color:#0084ec;}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro{margin-left:-110px}
+body #superior1 #otrosSuperior #desplegableInicio{margin-top:-34px}
+body #superior1 #otrosSuperior #desplegableInicio:hover{background-color:#0084ec;}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio{margin-left:-120px}
+body #contenido{width:768px;}
+body #contenido #banner{margin-top:30px}
+body #contenido #galeria{height:auto;}
+body #contenido #galeria #galeriaPrincipal{display:inline-block;width:510px;}
+body #contenido #galeria #galeriaPrincipal img{width:510px}
+body #contenido #galeria #galeriaPrincipal iframe{width:510px}
+body #contenido #galeria #divisor1{display:inline-block;height:354px;vertical-align:top;width:250px;}
+body #contenido #galeria #divisor1 .imgImportante1{display:inline-block;height:177px;vertical-align:top;width:250px;}
+body #contenido #galeria #divisor1 .imgImportante1 img{height:177px;width:250px;z-index:1}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria{width:250px}
+body #contenido #galeria #divisor2{height:284px;margin-top:0;margin-left:0;vertical-align:none;width:768px;}
+body #contenido #galeria #divisor2 .imgImportante2{display:inline-block;height:284px;vertical-align:none;width:382px;}
+body #contenido #galeria #divisor2 .imgImportante2 img{display:inline-block;vertical-align:top;height:284px;width:382px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria{height:45px;margin-top:-50px;width:382px;}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria p{font-size:0;height:10px;margin:20px auto 0 auto;-webkit-transition:all 1s ease;width:10px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria:hover{height:270px;margin-top:-275px}
+body #contenido #galeria #noPaginas{margin-bottom:0;width:100%}
+body #contenido #tecnologias{height:auto}
+body #contenido #contenedorNoticias{margin-left:0;margin-bottom:10px;width:768px;-moz-box-shadow:inset 0 0 0 rgba(238,238,238,0.5);-webkit-box-shadow:inset 0 0 0 rgba(238,238,238,0.5);box-shadow:inset 0 0 0 rgba(238,238,238,0.5);}
+body #contenido #contenedorNoticias .noticia .tituloNoticia{width:740px}
+body #contenido #contenedorNoticias .noticia #autor{width:740px}
+body #contenido #contenedorNoticias .noticia #sociales{width:740px}
+body #contenido #contenedorNoticias .noticia #informacionNoticia{width:740px}
+body #contenido #contenedorBlog{margin-left:0;margin-bottom:10px;width:730px;-moz-box-shadow:inset 0 0 0 rgba(238,238,238,0.5);-webkit-box-shadow:inset 0 0 0 rgba(238,238,238,0.5);box-shadow:inset 0 0 0 rgba(238,238,238,0.5);}
+body #contenido #contenedorBlog .noticiaBlog h1{width:670px}
+body #contenido #contenedorBlog .noticiaBlog p{line-height:23px;text-align:justify;margin-bottom:10px}
+body #contenido #contenedorBlog .noticiaBlog img{border:1px dotted #808080;height:310px;margin-top:10px;width:630px}
+body #contenido #contenedorBlog #autorBlog{background-color:#e5e5e5;border:2px dotted #b4b4b4;border-radius:20px;height:120px;width:100%;}
+body #contenido #contenedorBlog #autorBlog #imagen{display:inline-block;margin-left:10px;margin-right:10px;width:100px;}
+body #contenido #contenedorBlog #autorBlog #imagen img{background-color:#eee;border-radius:50px;height:100px;margin-top:10px;width:100px;-webkit-transform:rotate(0)}
+body #contenido #contenedorBlog #autorBlog #imagen img:hover{-webkit-transform:rotate(720deg);transition:all .9s ease-in;-moz-transition:all .9s ease-in}
+body #contenido #contenedorBlog #autorBlog #informacion{display:inline-block;height:100px;padding:10px;width:500px;vertical-align:top;}
+body #contenido #contenedorBlog #autorBlog #informacion h4{width:210px}
+body #contenido #contenedorContacto{margin-left:0;margin-bottom:10px;width:730px;-moz-box-shadow:inset 0 0 0 rgba(238,238,238,0.5);-webkit-box-shadow:inset 0 0 0 rgba(238,238,238,0.5);box-shadow:inset 0 0 0 rgba(238,238,238,0.5);}
+body #contenido #contenedorContacto #contacto h1{width:auto}
+body #contenido #contenedorContacto #contacto #formulario{width:660px;}
+body #contenido #contenedorContacto #contacto #formulario #fila #label{width:200px}
+body #contenido #contenedorContacto #contacto #formulario #fila #cajaTexto{width:360px}
+body #contenido #contenedorContacto #mapaContacto{width:640px;}
+body #contenido #contenedorContacto #mapaContacto #mapa{width:660px}
+body #contenido #lateral{border-top:1px dotted #808080;border-bottom:1px dotted #808080;display:block;vertical-align:none;margin-top:0;width:100%;}
+body #contenido #lateral .fb-like-box{margin-left:240px}
+body #contenido #lateral .transmision{margin-left:88px}
+body #contenido #lateral #relevantes{margin:10px auto 10px auto;width:590px;}
+body #contenido #lateral #relevantes .relevante1{display:inline-block}
+body #contenido #lateral #relevantes .relevante2{display:inline-block;vertical-align:top}
+body #contenido #lateral #relevantes .relevante3{display:inline-block}
+body #contenido #lateral #relevantes .relevante4{display:inline-block;vertical-align:top}
+body #contenido #lateral #relevantes .relevante5{display:inline-block}
+body #contenido #lateral #relevantes .relevante6{display:inline-block;vertical-align:top}
+body #contenido #lateral #encuesta{margin-top:-613px;margin-left:385px;margin-bottom:380px}
+body #contenido #lateral #rentaEspacio1{display:inline-block;margin-bottom:10px;margin-left:88px;vertical-align:top;width:267px}
+body #contenido #lateral #rentaEspacio2{display:inline-block;margin-bottom:10px;margin-left:10px;vertical-align:top;width:267px}
+}@media screen and (max-width: 768px){body #superior1{padding-left:0;height:auto;}
+body #superior1 #otrosSuperior{margin-left:182px;margin-top:0;margin-bottom:0;}
+body #superior1 #otrosSuperior #desplegableIdioma{margin-top:0;margin-left:0}
+body #superior1 #otrosSuperior #desplegableIdioma:hover #contenedorIdioma{margin-left:-47px}
+body #superior1 #otrosSuperior #desplegableRegistro{margin-top:0}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro{margin-left:-150px}
+body #superior1 #otrosSuperior #desplegableInicio{margin-top:0}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio{margin-left:-230px}
+body #contenido{width:768px;}
+body #contenido #banner{margin-top:0}
+body #contenido #galeria{height:auto;}
+body #contenido #galeria #galeriaPrincipal{display:inline-block;width:510px;}
+body #contenido #galeria #galeriaPrincipal img{width:510px}
+body #contenido #galeria #galeriaPrincipal iframe{width:510px}
+body #contenido #galeria #divisor1{display:inline-block;height:354px;vertical-align:top;width:250px;}
+body #contenido #galeria #divisor1 .imgImportante1{display:inline-block;height:177px;vertical-align:top;width:250px;}
+body #contenido #galeria #divisor1 .imgImportante1 img{height:177px;width:250px;z-index:1}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria{width:250px}
+body #contenido #galeria #divisor2{height:284px;margin-top:0;margin-left:0;vertical-align:none;width:768px;}
+body #contenido #galeria #divisor2 .imgImportante2{display:inline-block;height:284px;vertical-align:none;width:382px;}
+body #contenido #galeria #divisor2 .imgImportante2 img{display:inline-block;vertical-align:top;height:284px;width:382px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria{height:45px;margin-top:-50px;width:382px;}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria p{font-size:0;height:10px;margin:20px auto 0 auto;-webkit-transition:all 1s ease;width:10px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria:hover{height:270px;margin-top:-275px}
+body #contenido #galeria #noPaginas{margin-bottom:0;width:100%}
+body #contenido #tecnologias{height:auto}
+body #contenido #contenedorNoticias{margin-left:0;margin-bottom:10px;width:768px;-moz-box-shadow:inset 0 0 0 rgba(238,238,238,0.5);-webkit-box-shadow:inset 0 0 0 rgba(238,238,238,0.5);box-shadow:inset 0 0 0 rgba(238,238,238,0.5);}
+body #contenido #contenedorNoticias .noticia .tituloNoticia{width:740px}
+body #contenido #contenedorNoticias .noticia #autor{width:740px}
+body #contenido #contenedorNoticias .noticia #sociales{width:740px}
+body #contenido #contenedorNoticias .noticia #informacionNoticia{width:740px}
+body #contenido #contenedorBlog{margin-left:0;margin-bottom:10px;width:730px;-moz-box-shadow:inset 0 0 0 rgba(238,238,238,0.5);-webkit-box-shadow:inset 0 0 0 rgba(238,238,238,0.5);box-shadow:inset 0 0 0 rgba(238,238,238,0.5);}
+body #contenido #contenedorBlog .noticiaBlog h1{width:670px}
+body #contenido #contenedorBlog .noticiaBlog p{line-height:23px;text-align:justify;margin-bottom:10px}
+body #contenido #contenedorBlog .noticiaBlog img{border:1px dotted #808080;height:310px;margin-top:10px;width:630px}
+body #contenido #contenedorBlog #autorBlog{background-color:#e5e5e5;border:2px dotted #b4b4b4;border-radius:20px;height:120px;width:100%;}
+body #contenido #contenedorBlog #autorBlog #imagen{display:inline-block;margin-left:10px;margin-right:10px;width:100px;}
+body #contenido #contenedorBlog #autorBlog #imagen img{background-color:#eee;border-radius:50px;height:100px;margin-top:10px;width:100px;-webkit-transform:rotate(0)}
+body #contenido #contenedorBlog #autorBlog #imagen img:hover{-webkit-transform:rotate(720deg);transition:all .9s ease-in;-moz-transition:all .9s ease-in}
+body #contenido #contenedorBlog #autorBlog #informacion{display:inline-block;height:100px;padding:10px;width:500px;vertical-align:top;}
+body #contenido #contenedorBlog #autorBlog #informacion h4{width:210px}
+body #contenido #contenedorContacto{margin-left:0;margin-bottom:10px;width:730px;-moz-box-shadow:inset 0 0 0 rgba(238,238,238,0.5);-webkit-box-shadow:inset 0 0 0 rgba(238,238,238,0.5);box-shadow:inset 0 0 0 rgba(238,238,238,0.5);}
+body #contenido #contenedorContacto #contacto h1{width:auto}
+body #contenido #contenedorContacto #contacto #formulario{width:660px;}
+body #contenido #contenedorContacto #contacto #formulario #fila #label{width:200px}
+body #contenido #contenedorContacto #contacto #formulario #fila #cajaTexto{width:360px}
+body #contenido #contenedorContacto #mapaContacto{width:640px;}
+body #contenido #contenedorContacto #mapaContacto #mapa{width:660px}
+body #contenido #lateral{border-top:1px dotted #808080;border-bottom:1px dotted #808080;display:block;vertical-align:none;margin-top:0;width:100%;}
+body #contenido #lateral .fb-like-box{margin-left:240px}
+body #contenido #lateral .transmision{margin-left:88px}
+body #contenido #lateral #relevantes{margin:10px auto 10px auto;width:590px;}
+body #contenido #lateral #relevantes .relevante1{display:inline-block}
+body #contenido #lateral #relevantes .relevante2{display:inline-block;vertical-align:top}
+body #contenido #lateral #relevantes .relevante3{display:inline-block}
+body #contenido #lateral #relevantes .relevante4{display:inline-block;vertical-align:top}
+body #contenido #lateral #relevantes .relevante5{display:inline-block}
+body #contenido #lateral #relevantes .relevante6{display:inline-block;vertical-align:top}
+body #contenido #lateral #encuesta{margin-top:-613px;margin-left:385px;margin-bottom:380px}
+body #contenido #lateral #rentaEspacio1{display:inline-block;margin-bottom:10px;margin-left:88px;vertical-align:top;width:267px}
+body #contenido #lateral #rentaEspacio2{display:inline-block;margin-bottom:10px;margin-left:10px;vertical-align:top;width:267px}
+}@media screen and (max-width: 685px){body #superior1{padding-left:0;height:40px;}
+body #superior1 #otrosSuperior{margin-left:185px;margin-top:0;margin-bottom:0;height:40px;}
+body #superior1 #otrosSuperior select{margin-left:210px}
+body #superior1 #otrosSuperior .txtBuscar{width:80px}
+body #superior1 #otrosSuperior .btnBuscar{border:0;margin-left:0;margin-right:0}
+body #superior1 #otrosSuperior #desplegableIdioma{margin-top:-32px;margin-left:0;padding-left:2px;padding-right:2px;width:60px}
+body #superior1 #otrosSuperior #desplegableIdioma:hover #contenedorIdioma{margin-left:-47px}
+body #superior1 #otrosSuperior #desplegableRegistro{margin-top:-32px;margin-left:-5px;padding-left:2px;padding-right:2px;width:60px}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro{margin-left:-110px}
+body #superior1 #otrosSuperior #desplegableInicio{margin-top:-32px;margin-left:-5px;padding-left:2px;padding-right:2px;width:60px}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio{margin-left:-115px}
+body #contenido{width:685px;}
+body #contenido #galeria{height:auto;width:685px;}
+body #contenido #galeria #galeriaPrincipal{width:430px;}
+body #contenido #galeria #galeriaPrincipal img{width:430px}
+body #contenido #galeria #galeriaPrincipal iframe{width:430px}
+body #contenido #galeria #divisor1{width:248px;}
+body #contenido #galeria #divisor1 .imgImportante1{width:248px;}
+body #contenido #galeria #divisor1 .imgImportante1 img{width:248px}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria{width:248px}
+body #contenido #galeria #divisor2{width:685px;}
+body #contenido #galeria #divisor2 .imgImportante2{width:340px;}
+body #contenido #galeria #divisor2 .imgImportante2 img{width:340px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria{width:340px}
+body #contenido #tecnologias{height:auto}
+body #contenido #contenedorNoticias{width:685px;}
+body #contenido #contenedorNoticias .noticia .tituloNoticia{width:665px}
+body #contenido #contenedorNoticias .noticia #autor{width:665px}
+body #contenido #contenedorNoticias .noticia #sociales{width:665px}
+body #contenido #contenedorNoticias .noticia #informacionNoticia{width:665px}
+body #contenido #contenedorNoticias #noPaginas{margin-bottom:0;width:100%;}
+body #contenido #contenedorNoticias #noPaginas .pagina{margin-top:5px}
+body #contenido #contenedorBlog{width:650px;}
+body #contenido #contenedorBlog .noticiaBlog h1{width:600px}
+body #contenido #contenedorBlog .noticiaBlog img{width:600px}
+body #contenido #contenedorContacto{width:640px;}
+body #contenido #contenedorContacto #contacto #formulario{width:635px;}
+body #contenido #contenedorContacto #contacto #formulario #fila #label{width:200px}
+body #contenido #contenedorContacto #contacto #formulario #fila #cajaTexto{width:360px}
+body #contenido #contenedorContacto #mapaContacto{width:635px;}
+body #contenido #contenedorContacto #mapaContacto #mapa{width:635px}
+body #contenido #lateral{border-top:1px dotted #808080;border-bottom:1px dotted #808080;display:block;vertical-align:none;margin-top:0;width:100%;}
+body #contenido #lateral .fb-like-box{margin-left:190px}
+body #contenido #lateral .transmision{margin-left:46px}
+body #contenido #lateral #encuesta{margin-left:345px}
+body #contenido #lateral #rentaEspacio1{margin-left:46px}
+}@media screen and (max-width: 640px){body #superior1{text-align:left;padding-right:10px;padding-left:0;height:40px;}
+body #superior1 #otrosSuperior{margin-left:70px;margin-top:0;margin-bottom:0;height:40px;}
+body #superior1 #otrosSuperior select{margin-left:0}
+body #superior1 #otrosSuperior .txtBuscar{width:150px}
+body #superior1 #otrosSuperior .btnBuscar{border:0;margin-left:0;margin-right:0}
+body #superior1 #otrosSuperior #desplegableIdioma{margin-top:0;margin-left:0}
+body #superior1 #otrosSuperior #desplegableRegistro{margin-top:0;margin-left:0}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro{margin-left:-140px}
+body #superior1 #otrosSuperior #desplegableInicio{margin-top:0;margin-left:0}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio{margin-left:-210px}
+body #contenido{width:640px;}
+body #contenido #galeria{width:640px;}
+body #contenido #galeria #galeriaPrincipal{width:640px;}
+body #contenido #galeria #galeriaPrincipal img{width:640px}
+body #contenido #galeria #galeriaPrincipal iframe{width:640px}
+body #contenido #galeria #divisor1{display:inline-block;width:320px;}
+body #contenido #galeria #divisor1 .imgImportante1{width:320px;}
+body #contenido #galeria #divisor1 .imgImportante1 img{width:320px}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria{width:320px}
+body #contenido #galeria #divisor2{display:inline-block;vertical-align:top;width:315px;}
+body #contenido #galeria #divisor2 .imgImportante2{width:315px;height:177px;}
+body #contenido #galeria #divisor2 .imgImportante2 img{height:177px;width:315px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria{width:315px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria:hover{height:165px;margin-top:-175px;}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria:hover p{font-size:20px;height:60px;margin:20px auto 0 auto;padding-top:40px;width:100px}
+body #contenido #contenedorNoticias{width:640px;}
+body #contenido #contenedorNoticias .noticia .tituloNoticia{width:625px}
+body #contenido #contenedorNoticias .noticia #autor{width:625px}
+body #contenido #contenedorNoticias .noticia #sociales{width:625px}
+body #contenido #contenedorNoticias .noticia #informacionNoticia{width:625px}
+body #contenido #contenedorBlog{width:600px;}
+body #contenido #contenedorBlog .noticiaBlog h1{width:580px}
+body #contenido #contenedorBlog .noticiaBlog img{width:530px}
+body #contenido #contenedorBlog #autorBlog #informacion{width:400px;}
+body #contenido #contenedorBlog #autorBlog #informacion h4{width:110px}
+body #contenido #contenedorContacto{width:560px;}
+body #contenido #contenedorContacto #contacto #formulario{width:560px;}
+body #contenido #contenedorContacto #contacto #formulario #fila #label{width:180px}
+body #contenido #contenedorContacto #contacto #formulario #fila #cajaTexto{width:360px}
+body #contenido #contenedorContacto #mapaContacto{width:600px;}
+body #contenido #contenedorContacto #mapaContacto #mapa{width:600px}
+body #contenido #lateral{border-top:1px dotted #808080;border-bottom:1px dotted #808080;display:block;vertical-align:none;margin-top:0;width:100%;}
+body #contenido #lateral .fb-like-box{margin-left:160px}
+body #contenido #lateral .transmision{margin-left:26px}
+body #contenido #lateral #encuesta{margin-left:325px}
+body #contenido #lateral #rentaEspacio1{margin-left:26px}
+}@media screen and (max-width: 600px){body #superior1 #otrosSuperior .txtBuscar{width:100px}
+body #contenido{width:600px;}
+body #contenido #galeria{height:auto;width:600px;}
+body #contenido #galeria #galeriaPrincipal{width:600px;}
+body #contenido #galeria #galeriaPrincipal img{width:600px}
+body #contenido #galeria #galeriaPrincipal iframe{width:600px}
+body #contenido #galeria #divisor1{height:190px;width:600px;}
+body #contenido #galeria #divisor1 .imgImportante1{height:190px;width:298px;}
+body #contenido #galeria #divisor1 .imgImportante1 img{height:190px;width:298px}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria{width:298px}
+body #contenido #galeria #divisor2{height:173px;width:600px;}
+body #contenido #galeria #divisor2 .imgImportante2{height:173px;width:298px;}
+body #contenido #galeria #divisor2 .imgImportante2 img{height:173px;width:298px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria{width:298px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria:hover{height:165px;margin-top:-170px}
+body #contenido #contenedorNoticias{width:600px;}
+body #contenido #contenedorNoticias .noticia .tituloNoticia{width:580px}
+body #contenido #contenedorNoticias .noticia #autor{width:580px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia{height:290px;width:500px;}
+body #contenido #contenedorNoticias .noticia #imagenNoticia img{height:290px;width:500px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia iframe{height:290px;width:500px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia #verMasImg{margin-left:327px}
+body #contenido #contenedorNoticias .noticia #sociales{width:580px}
+body #contenido #contenedorNoticias .noticia #informacionNoticia{width:580px}
+body #contenido #contenedorNoticias #noPaginas{margin-bottom:0;width:100%;}
+body #contenido #contenedorNoticias #noPaginas .pagina{margin-top:5px}
+body #contenido #contenedorBlog{width:560px;}
+body #contenido #contenedorBlog .noticiaBlog h1{width:580px}
+body #contenido #contenedorBlog .noticiaBlog img{width:530px}
+body #contenido #contenedorBlog #autorBlog #informacion{width:400px;}
+body #contenido #contenedorBlog #autorBlog #informacion h4{width:110px}
+body #contenido #contenedorContacto{width:560px;}
+body #contenido #contenedorContacto #contacto #formulario{width:560px;}
+body #contenido #contenedorContacto #contacto #formulario #fila #label{width:180px}
+body #contenido #contenedorContacto #contacto #formulario #fila #cajaTexto{width:360px}
+body #contenido #contenedorContacto #mapaContacto{width:535px;}
+body #contenido #contenedorContacto #mapaContacto #mapa{width:535px}
+body #contenido #lateral{border-top:1px dotted #808080;border-bottom:1px dotted #808080;display:block;vertical-align:none;margin-top:0;width:100%;}
+body #contenido #lateral .fb-like-box{margin-left:150px}
+body #contenido #lateral .transmision{margin-left:5px}
+body #contenido #lateral #encuesta{margin-left:305px}
+body #contenido #lateral #rentaEspacio1{margin-left:5px}
+}@media screen and (max-width: 568px){body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro{margin-left:-170px}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio{margin-left:-240px}
+body #contenido{width:568px;}
+body #contenido #galeria{width:568px;}
+body #contenido #galeria #galeriaPrincipal{width:568px;}
+body #contenido #galeria #galeriaPrincipal img{width:568px}
+body #contenido #galeria #galeriaPrincipal iframe{width:568px}
+body #contenido #galeria #divisor1{height:177px;width:568px;}
+body #contenido #galeria #divisor1 .imgImportante1{height:177px;width:280px;}
+body #contenido #galeria #divisor1 .imgImportante1 img{width:282px}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria{width:280px;margin-top:-67px}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria:hover{margin-top:-186px}
+body #contenido #galeria #divisor2{height:177px;width:568px;}
+body #contenido #galeria #divisor2 .imgImportante2{height:177px;width:280px;}
+body #contenido #galeria #divisor2 .imgImportante2 img{height:177px;width:282px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria{width:280px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria:hover{height:160px;margin-top:-165px}
+body #contenido #tecnologias .logoLenguaje{margin:6px 6px 20px 6px}
+body #contenido #contenedorNoticias{width:568px;}
+body #contenido #contenedorNoticias .noticia .tituloNoticia{width:560px}
+body #contenido #contenedorNoticias .noticia #autor{width:560px}
+body #contenido #contenedorNoticias .noticia #sociales{width:560px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia{width:500px;}
+body #contenido #contenedorNoticias .noticia #imagenNoticia img{width:500px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia iframe{width:500px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia #verMasImg{margin-left:325px}
+body #contenido #contenedorNoticias .noticia #informacionNoticia{width:540px}
+body #contenido #contenedorNoticias #noPaginas{width:540px}
+body #contenido #contenedorBlog{width:530px;}
+body #contenido #contenedorBlog .noticiaBlog h1{width:510px}
+body #contenido #contenedorBlog .noticiaBlog img{width:470px;height:300px}
+body #contenido #contenedorBlog #autorBlog #informacion{width:370px;}
+body #contenido #contenedorBlog #autorBlog #informacion h4{width:90px}
+body #contenido #contenedorContacto{width:530px;}
+body #contenido #contenedorContacto #contacto #formulario{width:540px;}
+body #contenido #contenedorContacto #contacto #formulario #fila #label{width:180px}
+body #contenido #contenedorContacto #contacto #formulario #fila #cajaTexto{width:340px}
+body #contenido #contenedorContacto #contacto #formulario #btnContacto1{margin-top:15px;margin-right:20px;float:right}
+body #contenido #contenedorContacto #mapaContacto{width:530px;}
+body #contenido #contenedorContacto #mapaContacto #mapa{width:530px}
+body #contenido #lateral{border-top:2px dotted #808080;border-bottom:2px dotted #808080;display:block;vertical-align:none;margin-top:0;width:100%;}
+body #contenido #lateral .transmision{margin-left:5px;width:250px}
+body #contenido #lateral #relevantes{margin:10px auto 10px auto;width:543px;}
+body #contenido #lateral #relevantes .relevante1{display:inline-block;width:auto;}
+body #contenido #lateral #relevantes .relevante1 .noRelevante{display:inline-block;font-size:25px;width:35px}
+body #contenido #lateral #relevantes .relevante1 .textoRelevante{display:inline-block;font-size:23px;padding-top:3px;vertical-align:top;width:210px}
+body #contenido #lateral #relevantes .relevante2{display:inline-block;vertical-align:top;width:auto;}
+body #contenido #lateral #relevantes .relevante2 .noRelevante{display:inline-block;font-size:25px;width:35px}
+body #contenido #lateral #relevantes .relevante2 .textoRelevante{display:inline-block;font-size:23px;padding-top:3px;vertical-align:top;width:210px}
+body #contenido #lateral #relevantes .relevante3{display:inline-block;width:auto;}
+body #contenido #lateral #relevantes .relevante3 .noRelevante{display:inline-block;font-size:25px;width:35px}
+body #contenido #lateral #relevantes .relevante3 .textoRelevante{display:inline-block;font-size:23px;padding-top:3px;vertical-align:top;width:210px}
+body #contenido #lateral #relevantes .relevante4{display:inline-block;vertical-align:top;width:auto;}
+body #contenido #lateral #relevantes .relevante4 .noRelevante{display:inline-block;font-size:25px;width:35px}
+body #contenido #lateral #relevantes .relevante4 .textoRelevante{display:inline-block;font-size:23px;padding-top:3px;vertical-align:top;width:210px}
+body #contenido #lateral #relevantes .relevante5{display:inline-block;width:auto;}
+body #contenido #lateral #relevantes .relevante5 .noRelevante{display:inline-block;font-size:25px;width:35px}
+body #contenido #lateral #relevantes .relevante5 .textoRelevante{display:inline-block;font-size:23px;padding-top:3px;vertical-align:top;width:210px}
+body #contenido #lateral #relevantes .relevante6{display:inline-block;vertical-align:top;width:auto;}
+body #contenido #lateral #relevantes .relevante6 .noRelevante{display:inline-block;font-size:25px;width:35px}
+body #contenido #lateral #relevantes .relevante6 .textoRelevante{display:inline-block;font-size:23px;padding-top:3px;vertical-align:top;width:210px}
+body #contenido #lateral #encuesta{margin-top:-538px;margin-left:290px;margin-bottom:315px;width:250px}
+body #contenido #lateral #rentaEspacio1{margin-left:5px;width:250px}
+body #contenido #lateral #rentaEspacio2{width:250px}
+}@media screen and (max-width: 480px){body #superior1 #otrosSuperior select{width:70px}
+body #superior1 #otrosSuperior .txtBuscar{width:70px}
+body #superior1 #otrosSuperior .btnBuscar{width:50px;font-size:13px}
+body #superior1 #otrosSuperior #desplegableIdioma{height:30px}
+body #superior1 #otrosSuperior #desplegableIdioma:hover #contenedorIdioma{margin-top:16px}
+body #superior1 #otrosSuperior #desplegableRegistro{height:30px}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro{margin-top:16px;margin-left:-230px}
+body #superior1 #otrosSuperior #desplegableInicio{height:30px}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio{margin-top:16px;margin-left:-240px}
+body #contenido{width:480px;}
+body #contenido #galeria{height:auto;width:480px;}
+body #contenido #galeria #galeriaPrincipal{width:480px;}
+body #contenido #galeria #galeriaPrincipal img{width:480px}
+body #contenido #galeria #galeriaPrincipal iframe{width:480px}
+body #contenido #galeria #divisor1{height:177px;width:480px;}
+body #contenido #galeria #divisor1 .imgImportante1{height:177px;width:238px;}
+body #contenido #galeria #divisor1 .imgImportante1 img{height:177px;width:238px}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria{width:238px;margin-top:-55px}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria:hover{margin-top:-175px}
+body #contenido #galeria #divisor2{height:177px;width:480px;}
+body #contenido #galeria #divisor2 .imgImportante2{height:177px;width:238px;}
+body #contenido #galeria #divisor2 .imgImportante2 img{height:177px;width:238px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria{width:238px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria:hover{height:165px;margin-top:-170px}
+body #contenido #tecnologias .logoLenguaje{margin:6px 6px 20px 6px}
+body #contenido #contenedorNoticias{width:480px;}
+body #contenido #contenedorNoticias .noticia .tituloNoticia{width:460px}
+body #contenido #contenedorNoticias .noticia #autor{width:460px}
+body #contenido #contenedorNoticias .noticia #sociales{width:460px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia{height:200px;margin:5px auto 5px auto;width:460px;}
+body #contenido #contenedorNoticias .noticia #imagenNoticia img{border:1px dotted #808080;height:200px;width:460px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia iframe{height:200px;width:460px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia #verMasImg{margin-left:286px}
+body #contenido #contenedorNoticias .noticia #informacionNoticia{width:460px}
+body #contenido #contenedorNoticias #noPaginas{width:100%}
+body #contenido #contenedorBlog{width:440px;}
+body #contenido #contenedorBlog .noticiaBlog h1{font-size:30px;width:410px}
+body #contenido #contenedorBlog .noticiaBlog img{width:400px;height:250px}
+body #contenido #contenedorBlog #autorBlog #informacion{width:293px;}
+body #contenido #contenedorBlog #autorBlog #informacion h3{font-size:15px}
+body #contenido #contenedorBlog #autorBlog #informacion h4{font-size:13px;width:70px}
+body #contenido #contenedorBlog #autorBlog #informacion a{font-size:13px}
+body #contenido #contenedorContacto{width:440px;}
+body #contenido #contenedorContacto #contacto #formulario{width:440px;}
+body #contenido #contenedorContacto #contacto #formulario #fila #label{width:180px}
+body #contenido #contenedorContacto #contacto #formulario #fila #cajaTexto{margin-left:100px;width:340px}
+body #contenido #contenedorContacto #contacto #formulario #btnContacto1{margin-top:15px;margin-right:20px;float:right}
+body #contenido #contenedorContacto #mapaContacto{width:440px;}
+body #contenido #contenedorContacto #mapaContacto #mapa{width:440px}
+body #contenido #lateral{border-top:2px dotted #808080;border-bottom:2px dotted #808080;display:block;vertical-align:none;margin-top:0;width:100%;}
+body #contenido #lateral .fb-like-box{margin-left:100px}
+body #contenido #lateral .transmision{margin-left:5px;width:220px}
+body #contenido #lateral #relevantes{margin:10px auto 10px auto;width:470px;}
+body #contenido #lateral #relevantes .relevante1 .noRelevante{font-size:20px;width:35px}
+body #contenido #lateral #relevantes .relevante1 .textoRelevante{font-size:18px;width:173px}
+body #contenido #lateral #relevantes .relevante2 .noRelevante{font-size:20px;width:35px}
+body #contenido #lateral #relevantes .relevante2 .textoRelevante{font-size:18px;width:173px}
+body #contenido #lateral #relevantes .relevante3 .noRelevante{font-size:20px;width:35px}
+body #contenido #lateral #relevantes .relevante3 .textoRelevante{font-size:18px;width:173px}
+body #contenido #lateral #relevantes .relevante4 .noRelevante{font-size:20px;width:35px}
+body #contenido #lateral #relevantes .relevante4 .textoRelevante{font-size:18px;width:173px}
+body #contenido #lateral #relevantes .relevante5 .noRelevante{font-size:20px;width:35px}
+body #contenido #lateral #relevantes .relevante5 .textoRelevante{font-size:18px;width:173px}
+body #contenido #lateral #relevantes .relevante6 .noRelevante{font-size:20px;width:35px}
+body #contenido #lateral #relevantes .relevante6 .textoRelevante{font-size:18px;width:173px}
+body #contenido #lateral #encuesta{height:220px;margin-top:-523px;margin-left:255px;margin-bottom:280px;width:200px}
+body #contenido #lateral #rentaEspacio1{margin-left:5px;width:206px}
+body #contenido #lateral #rentaEspacio2{width:206px}
+}@media screen and (max-width: 380px){body #superior1 #otrosSuperior select{margin-top:-40px;width:0}
+body #superior1 #otrosSuperior .txtBuscar{margin-left:-100px;width:0}
+body #superior1 #otrosSuperior .btnBuscar{margin-left:-100px;margin-right:250px;width:0;font-size:0}
+body #superior1 #otrosSuperior #desplegableIdioma{height:30px;}
+body #superior1 #otrosSuperior #desplegableIdioma #contenedorIdioma{margin-left:100px}
+body #superior1 #otrosSuperior #desplegableIdioma:hover #contenedorIdioma{margin-top:16px}
+body #superior1 #otrosSuperior #desplegableRegistro{height:30px}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro{margin-top:16px;margin-left:-190px}
+body #superior1 #otrosSuperior #desplegableInicio{height:30px}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio{margin-top:16px;margin-left:-260px}
+body #contenido{width:380px;}
+body #contenido #banner img{width:378px}
+body #contenido #galeria{height:auto;width:380px;}
+body #contenido #galeria #galeriaPrincipal{width:380px;}
+body #contenido #galeria #galeriaPrincipal img{width:380px}
+body #contenido #galeria #galeriaPrincipal iframe{width:380px}
+body #contenido #galeria #divisor1{height:auto;width:380px;}
+body #contenido #galeria #divisor1 .imgImportante1{height:230px;width:380px;}
+body #contenido #galeria #divisor1 .imgImportante1 img{height:230px;width:380px}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria{width:380px}
+body #contenido #galeria #divisor2{height:auto;width:380px;}
+body #contenido #galeria #divisor2 .imgImportante2{height:230px;width:380px;}
+body #contenido #galeria #divisor2 .imgImportante2 img{height:230px;width:380px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria{width:380px}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria:hover{height:165px;margin-top:-170px}
+body #contenido #tecnologias .logoLenguaje{margin:6px 6px 20px 6px}
+body #contenido #contenedorNoticias{width:380px;}
+body #contenido #contenedorNoticias .noticia .tituloNoticia{width:360px}
+body #contenido #contenedorNoticias .noticia #autor{width:360px}
+body #contenido #contenedorNoticias .noticia #sociales{width:360px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia{height:160px;margin:5px auto 5px auto;width:360px;}
+body #contenido #contenedorNoticias .noticia #imagenNoticia img{border:1px dotted #808080;height:160px;width:360px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia iframe{height:160px;width:360px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia #verMasImg{margin-left:186px}
+body #contenido #contenedorNoticias .noticia #informacionNoticia{width:360px}
+body #contenido #contenedorNoticias #noPaginas{width:100%;}
+body #contenido #contenedorNoticias #noPaginas .pagina{margin-bottom:5px}
+body #contenido #contenedorBlog{width:340px;}
+body #contenido #contenedorBlog .noticiaBlog h1{font-size:27px;width:320px}
+body #contenido #contenedorBlog .noticiaBlog img{width:290px;height:210px}
+body #contenido #contenedorBlog #autorBlog{height:auto;}
+body #contenido #contenedorBlog #autorBlog #imagen{display:block;margin-left:0;margin-right:0;margin:20px auto 0 auto;width:150px;}
+body #contenido #contenedorBlog #autorBlog #imagen img{border-radius:100px;height:150px;margin-top:0;width:150px}
+body #contenido #contenedorBlog #autorBlog #informacion{text-align:center;width:290px;}
+body #contenido #contenedorBlog #autorBlog #informacion h3{margin-left:5px;font-size:15px}
+body #contenido #contenedorBlog #autorBlog #informacion h4{font-size:13px;width:auto}
+body #contenido #contenedorContacto{width:340px;}
+body #contenido #contenedorContacto #contacto #formulario{width:320px;}
+body #contenido #contenedorContacto #contacto #formulario #fila #label{width:180px}
+body #contenido #contenedorContacto #contacto #formulario #fila #cajaTexto{margin-left:0;width:340px}
+body #contenido #contenedorContacto #contacto #formulario #btnContacto1{margin-top:15px;margin-right:0;float:right}
+body #contenido #contenedorContacto #mapaContacto{width:340px;}
+body #contenido #contenedorContacto #mapaContacto #mapa{width:340px}
+body #contenido #lateral{border-top:2px dotted #808080;border-bottom:2px dotted #808080;display:block;vertical-align:none;margin-top:0;width:100%;}
+body #contenido #lateral .fb-like-box{margin-left:40px}
+body #contenido #lateral .transmision{margin-left:5px;width:350px}
+body #contenido #lateral #relevantes{margin:10px auto 10px auto;width:370px;}
+body #contenido #lateral #relevantes .relevante1{width:350px;}
+body #contenido #lateral #relevantes .relevante1 .noRelevante{font-size:30px}
+body #contenido #lateral #relevantes .relevante1 .textoRelevante{font-size:24px;width:270px}
+body #contenido #lateral #relevantes .relevante2{width:350px;}
+body #contenido #lateral #relevantes .relevante2 .noRelevante{font-size:30px}
+body #contenido #lateral #relevantes .relevante2 .textoRelevante{font-size:24px;width:270px}
+body #contenido #lateral #relevantes .relevante3{width:350px;}
+body #contenido #lateral #relevantes .relevante3 .noRelevante{font-size:30px}
+body #contenido #lateral #relevantes .relevante3 .textoRelevante{font-size:24px;width:270px}
+body #contenido #lateral #relevantes .relevante4{width:350px;}
+body #contenido #lateral #relevantes .relevante4 .noRelevante{font-size:30px}
+body #contenido #lateral #relevantes .relevante4 .textoRelevante{font-size:24px;width:270px}
+body #contenido #lateral #relevantes .relevante5{width:350px;}
+body #contenido #lateral #relevantes .relevante5 .noRelevante{font-size:30px}
+body #contenido #lateral #relevantes .relevante5 .textoRelevante{font-size:24px;width:270px}
+body #contenido #lateral #relevantes .relevante6{width:350px;}
+body #contenido #lateral #relevantes .relevante6 .noRelevante{font-size:30px}
+body #contenido #lateral #relevantes .relevante6 .textoRelevante{font-size:24px;width:270px}
+body #contenido #lateral #encuesta{height:220px;margin-top:0;margin-left:5px;margin-bottom:10px;width:350px}
+body #contenido #lateral #rentaEspacio1{margin-left:5px;width:350px}
+body #contenido #lateral #rentaEspacio2{margin-left:5px;width:350px}
+}@media screen and (max-width: 320px){body #superior1 #otrosSuperior select{margin-top:-40px;width:0}
+body #superior1 #otrosSuperior .txtBuscar{margin-left:-130px;width:0}
+body #superior1 #otrosSuperior .btnBuscar{margin-right:210px;width:0;font-size:0}
+body #superior1 #otrosSuperior #desplegableIdioma{height:30px;}
+body #superior1 #otrosSuperior #desplegableIdioma #contenedorIdioma{margin-left:100px}
+body #superior1 #otrosSuperior #desplegableIdioma:hover #contenedorIdioma{margin-top:16px}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro{margin-top:16px;margin-left:-154px}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio{margin-top:16px;margin-left:-220px}
+body #contenido{box-shadow:0 0 0 #808080;width:320px;}
+body #contenido #banner{margin-top:0;margin-bottom:0;}
+body #contenido #banner img{height:auto;width:100%}
+body #contenido #galeria{height:auto;width:320px;}
+body #contenido #galeria #galeriaPrincipal{height:220px;width:316px;}
+body #contenido #galeria #galeriaPrincipal img{height:220px;width:316px}
+body #contenido #galeria #galeriaPrincipal iframe{height:220px;width:316px}
+body #contenido #galeria #divisor1{text-indent:-9999px;height:0;width:0;}
+body #contenido #galeria #divisor1 .imgImportante1{text-indent:-9999px;height:0;width:0;}
+body #contenido #galeria #divisor1 .imgImportante1 img{text-indent:-9999px;height:0;width:0}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria{text-indent:-9999px;font-size:0;width:0}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria:hover{text-indent:-9999px;height:0;}
+body #contenido #galeria #divisor1 .imgImportante1 .textoGaleria:hover p{text-indent:-9999px;height:0;margin-top:0;font-size:0}
+body #contenido #galeria #divisor2{text-indent:-9999px;height:0;width:0;}
+body #contenido #galeria #divisor2 .imgImportante2{text-indent:-9999px;height:0;width:0;}
+body #contenido #galeria #divisor2 .imgImportante2 img{text-indent:-9999px;height:0;width:0}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria{text-indent:-9999px;font-size:0;width:0}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria:hover{text-indent:-9999px;height:0;margin-top:0;}
+body #contenido #galeria #divisor2 .imgImportante2 .textoGaleria:hover p{text-indent:-9999px;height:0;margin-top:0;font-size:0}
+body #contenido #tecnologias .logoLenguaje{margin:6px 6px 20px 6px}
+body #contenido #contenedorNoticias{width:320px;}
+body #contenido #contenedorNoticias .noticia .tituloNoticia{font-size:18px;text-transform:uppercase;width:300px}
+body #contenido #contenedorNoticias .noticia #autor{width:300px}
+body #contenido #contenedorNoticias .noticia #sociales{width:300px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia{height:200px;margin:5px auto 5px auto;width:300px;}
+body #contenido #contenedorNoticias .noticia #imagenNoticia img{border:1px dotted #808080;height:200px;width:300px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia iframe{height:200px;width:300px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia a{text-decoration:none;}
+body #contenido #contenedorNoticias .noticia #imagenNoticia a #verMasImg{margin-left:120px}
+body #contenido #contenedorNoticias .noticia #informacionNoticia{width:300px;}
+body #contenido #contenedorNoticias .noticia #informacionNoticia .textoNoticia{font-size:14px;line-height:auto}
+body #contenido #contenedorNoticias #noPaginas{width:100%;}
+body #contenido #contenedorNoticias #noPaginas .pagina{margin-top:5px}
+body #contenido #contenedorBlog{width:280px;}
+body #contenido #contenedorBlog .noticiaBlog h1{font-size:24px;width:300px}
+body #contenido #contenedorBlog .noticiaBlog img{width:260px;height:190px}
+body #contenido #contenedorBlog #autorBlog{height:auto;}
+body #contenido #contenedorBlog #autorBlog #imagen{width:100px;}
+body #contenido #contenedorBlog #autorBlog #imagen img{border-radius:50px;height:100px;width:100px}
+body #contenido #contenedorBlog #autorBlog #informacion{padding:0;text-align:center;width:290px;}
+body #contenido #contenedorBlog #autorBlog #informacion h3{display:block;padding:0;margin:0;margin-top:5px}
+body #contenido #contenedorBlog #autorBlog #informacion h4{display:block;padding:0;margin:0;margin-left:0;width:auto}
+body #contenido #contenedorBlog #autorBlog #informacion img{height:10px;width:15px}
+body #contenido #contenedorBlog #autorBlog #informacion h5{font-size:14px}
+body #contenido #contenedorBlog #autorBlog #informacion a{font-size:14px}
+body #contenido #contenedorContacto{width:280px;}
+body #contenido #contenedorContacto #contacto h1{font-size:25px}
+body #contenido #contenedorContacto #contacto #formulario{margin:0;width:280px;}
+body #contenido #contenedorContacto #contacto #formulario #fila #label{width:100%}
+body #contenido #contenedorContacto #contacto #formulario #fila #cajaTexto{width:280px}
+body #contenido #contenedorContacto #mapaContacto{width:280px;}
+body #contenido #contenedorContacto #mapaContacto #mapa{width:280px}
+body #contenido #lateral{border-top:2px dotted #808080;border-bottom:2px dotted #808080;display:block;vertical-align:none;margin-top:0;width:100%;}
+body #contenido #lateral .fb-like-box{margin-left:10px}
+body #contenido #lateral .transmision{margin-left:5px;width:285px}
+body #contenido #lateral #relevantes{margin:10px 5px 10px 5px;width:305px;}
+body #contenido #lateral #relevantes .relevante1{width:285px;}
+body #contenido #lateral #relevantes .relevante1 .noRelevante{font-size:30px}
+body #contenido #lateral #relevantes .relevante1 .textoRelevante{width:240px}
+body #contenido #lateral #relevantes .relevante2{width:285px;}
+body #contenido #lateral #relevantes .relevante2 .noRelevante{font-size:30px}
+body #contenido #lateral #relevantes .relevante2 .textoRelevante{width:240px}
+body #contenido #lateral #relevantes .relevante3{width:285px;}
+body #contenido #lateral #relevantes .relevante3 .noRelevante{font-size:30px}
+body #contenido #lateral #relevantes .relevante3 .textoRelevante{width:240px}
+body #contenido #lateral #relevantes .relevante4{width:285px;}
+body #contenido #lateral #relevantes .relevante4 .noRelevante{font-size:30px}
+body #contenido #lateral #relevantes .relevante4 .textoRelevante{width:240px}
+body #contenido #lateral #relevantes .relevante5{width:285px;}
+body #contenido #lateral #relevantes .relevante5 .noRelevante{font-size:30px}
+body #contenido #lateral #relevantes .relevante5 .textoRelevante{width:240px}
+body #contenido #lateral #relevantes .relevante6{width:285px;}
+body #contenido #lateral #relevantes .relevante6 .noRelevante{font-size:30px}
+body #contenido #lateral #relevantes .relevante6 .textoRelevante{width:240px}
+body #contenido #lateral #encuesta{height:220px;margin-top:0;margin-left:5px;margin-bottom:10px;width:285px}
+body #contenido #lateral #rentaEspacio1{margin-left:5px;width:285px}
+body #contenido #lateral #rentaEspacio2{margin-left:5px;width:285px}
+body #contenido #footer{padding-bottom:30px}
+}@media screen and (max-width: 250px){body #superior1 #otrosSuperior{margin-left:55px;padding-left:0;}
+body #superior1 #otrosSuperior .txtBuscar{margin-left:-145px}
+body #superior1 #otrosSuperior #desplegableIdioma{margin-left:-10px;width:40px;}
+body #superior1 #otrosSuperior #desplegableIdioma #contenedorIdioma{margin-left:100px}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro{height:280px;margin-left:-100px;width:230px;}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro .txtDesplegable{width:210px}
+body #superior1 #otrosSuperior #desplegableRegistro:hover #contenedorRegistro .btnRegistro{font-size:14px;width:180px}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio{margin-left:-165px;height:230px;width:230px;}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio .txtDesplegable{width:210px}
+body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio .btnRegistro{font-size:14px;width:180px}
+body #contenido{width:250px;}
+body #contenido #galeria{width:247px;}
+body #contenido #galeria #galeriaPrincipal{width:247px;}
+body #contenido #galeria #galeriaPrincipal img{width:247px}
+body #contenido #tecnologias .logoLenguaje{margin:6px 6px 20px 6px}
+body #contenido #contenedorNoticias{width:240px;}
+body #contenido #contenedorNoticias .noticia .tituloNoticia{width:220px}
+body #contenido #contenedorNoticias .noticia #autor{width:220px}
+body #contenido #contenedorNoticias .noticia #sociales{width:220px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia{height:200px;width:220px;}
+body #contenido #contenedorNoticias .noticia #imagenNoticia img{height:200px;width:220px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia iframe{height:200px;width:220px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia a #verMasImg{margin-left:40px}
+body #contenido #contenedorNoticias .noticia #informacionNoticia{width:220px}
+body #contenido #contenedorBlog{width:200px;}
+body #contenido #contenedorBlog .noticiaBlog h1{width:190px}
+body #contenido #contenedorBlog .noticiaBlog img{width:190px;height:130px}
+body #contenido #contenedorBlog #autorBlog #informacion{padding-bottom:5px;height:auto;width:200px}
+body #contenido #contenedorContacto{width:200px;}
+body #contenido #contenedorContacto #contacto h1{font-size:22px}
+body #contenido #contenedorContacto #contacto #formulario{width:200px;}
+body #contenido #contenedorContacto #contacto #formulario #fila #cajaTexto{width:200px}
+body #contenido #contenedorContacto #mapaContacto{width:200px;}
+body #contenido #contenedorContacto #mapaContacto #mapa{width:200px}
+body #contenido #lateral{margin-left:-999px;margin-top:-99999px;position:fixed;height:0;width:0;}
+body #contenido #lateral .fb-like-box{width:0;height:0}
+body #contenido #lateral .transmision{width:0;height:0}
+body #contenido #lateral #relevantes{width:0;height:0}
+body #contenido #lateral #encuesta{width:0;height:0}
+body #contenido #lateral #rentaEspacio1{width:0;height:0}
+body #contenido #lateral #rentaEspacio2{width:0;height:0}
+}@media screen and (max-width: 240px){body #superior1 #otrosSuperior #desplegableInicio:hover #contenedorInicio{margin-left:-170px}
+body #contenido{width:240px;}
+body #contenido #banner{margin-top:0;margin-bottom:0}
+body #contenido #galeria{width:240px;}
+body #contenido #galeria #galeriaPrincipal{height:200px;width:240px;}
+body #contenido #galeria #galeriaPrincipal img{height:200px;width:240px}
+body #contenido #galeria #galeriaPrincipal iframe{height:200px;width:240px}
+body #contenido #tecnologias .logoLenguaje{margin:6px 6px 20px 6px}
+body #contenido #contenedorNoticias{width:240px;}
+body #contenido #contenedorNoticias .noticia .tituloNoticia{width:220px}
+body #contenido #contenedorNoticias .noticia #autor{width:220px}
+body #contenido #contenedorNoticias .noticia #sociales{width:220px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia{height:200px;width:220px;}
+body #contenido #contenedorNoticias .noticia #imagenNoticia img{height:200px;width:220px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia iframe{height:200px;width:220px}
+body #contenido #contenedorNoticias .noticia #imagenNoticia a #verMasImg{margin-left:40px}
+body #contenido #contenedorNoticias .noticia #informacionNoticia{width:220px}
+body #contenido #contenedorBlog{width:200px;}
+body #contenido #contenedorBlog .noticiaBlog h1{width:190px}
+body #contenido #contenedorBlog .noticiaBlog img{width:190px;height:130px}
+body #contenido #contenedorBlog #autorBlog #informacion{padding-bottom:5px;height:auto;width:200px}
+body #contenido #contenedorContacto{width:200px;}
+body #contenido #contenedorContacto #contacto h1{font-size:22px}
+body #contenido #contenedorContacto #contacto #formulario{width:200px;}
+body #contenido #contenedorContacto #contacto #formulario #fila #cajaTexto{width:200px}
+body #contenido #contenedorContacto #mapaContacto{width:200px;}
+body #contenido #contenedorContacto #mapaContacto #mapa{width:200px}
+body #contenido #lateral{margin-left:-999px;margin-top:-99999px;position:fixed;height:0;width:0;}
+body #contenido #lateral .fb-like-box{width:0;height:0}
+body #contenido #lateral .transmision{width:0;height:0}
+body #contenido #lateral #relevantes{width:0;height:0}
+body #contenido #lateral #encuesta{width:0;height:0}
+body #contenido #lateral #rentaEspacio1{width:0;height:0}
+body #contenido #lateral #rentaEspacio2{width:0;height:0}
+}

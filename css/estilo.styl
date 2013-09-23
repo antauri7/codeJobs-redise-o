@@ -1,0 +1,4052 @@
+body
+	background-color #bdbdbd//E4E4E4
+	font-family Arial
+	padding 0px
+	margin 0px
+
+	#superior1
+		background-color #00508A//005D94
+		border-bottom 5px solid #00325A//003857
+		height 35px
+		text-align center
+		position fixed
+		width 100%
+		z-index 4
+
+		#otrosSuperior
+			display inline-block
+			vertical-align top
+			margin-left 50px
+			padding 0px
+
+			select
+				-webkit-appearance button
+				-webkit-border-radius 2px
+				-webkit-box-shadow 0px 1px 3px rgba(0, 0, 0, 0.1)
+				-webkit-padding-end 10px
+				-webkit-padding-start 2px
+				-webkit-user-select none
+				background-image url(../img/otros/select-arrow.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5)
+				background-size 20px
+				background-position center right
+				background-repeat no-repeat
+				border 1px solid #AAA
+				color #555
+				font-size inherit
+				margin 0
+				margin-top 6px
+				overflow hidden
+				padding-top 2px
+				padding-bottom 2px
+				text-overflow ellipsis
+				vertical-align top
+				white-space nowrap
+
+			.txtBuscar
+				height 19px
+				font-size 16px
+				margin-top 6px
+				margin-right 0px
+				vertical-align top
+				width 150px
+
+			.btnBuscar
+				background-color white
+				border 0px
+				border-left 5px solid #5a5a5a
+				color #5a5a5a
+				font-size 18px
+				height 25px
+				margin-top 6px
+				margin-left -4px
+				margin-right 10px
+
+			#desplegableIdioma
+				display inline-block
+				cursor pointer
+				color white
+				font-size 12px
+				height 25px
+				padding-top 10px
+				text-align center
+				vertical-align top
+				width 75px
+
+				#contenedorIdioma
+					height 0px
+					width 0px
+					transition height 0.1s ease-in
+
+					h1
+						margin-left 9999px
+
+					img
+						height 0px
+						width 0px
+
+			#desplegableIdioma:hover
+
+				#contenedorIdioma
+					background #eee
+					border 2px solid #444444
+					border-bottom-right-radius 10px
+					border-bottom-left-radius 10px
+					border-top 5px solid #00325A
+					color #444444
+					height 50px
+					margin-top 11px
+					margin-left -37px
+					width 150px
+
+					h1
+						font-size 12px
+						margin-left 0px
+						padding 0px
+						padding-top 5px
+						padding-bottom 10px
+						margin 0px
+
+					img
+						height 13px
+						width 18px
+
+			#desplegableRegistro
+				display inline-block
+				cursor pointer
+				color white
+				font-size 12px
+				height 25px
+				padding-top 10px
+				text-align center
+				vertical-align top
+				width 75px
+
+				#contenedorRegistro
+					height 0px
+					width 0px
+					margin-top -99999px
+					transition height 0.1s ease-in
+
+					h1
+						margin-left 9999px
+
+					.txtDesplegable
+						height 0px
+						width 0px
+						font-size 0px
+						margin-left 9999px
+
+					.btnRegistro
+						height 0px
+						width 0px
+						font-size 0px
+						margin-left 9999px
+
+					a
+						text-decoration none
+
+						img
+							height 0px
+							margin-left 9999px
+							width 0px
+
+			#desplegableRegistro:hover
+
+				#contenedorRegistro
+					background #eee
+					border 2px solid #444444
+					border-bottom-right-radius 10px
+					border-bottom-left-radius 10px
+					border-top 5px solid #00325A
+					color #444444
+					height 260px
+					margin-top 11px
+					margin-left -100px
+					width 290px
+
+					h1
+						font-size 14px
+						margin-left 0px
+						padding 0px
+						padding-top 5px
+						margin 0px
+
+					.txtDesplegable
+						font-size 16px
+						margin-top 10px
+						margin-left 0px
+						padding-top 5px
+						padding-bottom 5px
+						height 20px
+						width 250px
+
+					.txtDesplegable:hover
+						border 2px solid gray
+
+					.btnRegistro
+						border 2px solid #00325a
+						border-radius 5px
+						background-color #027ac1
+						color white
+						font-size 16px
+						height 30px
+						margin-top 5px
+						margin-left 0px
+						margin-bottom 10px
+						width 256px
+
+					.btnRegistro:hover
+						border 2px solid #008FFF
+
+					a
+						text-decoration none
+
+						img
+							height 25px
+							margin-left 0px
+							width 154px
+
+			#desplegableInicio
+				display inline-block
+				cursor pointer
+				color white
+				font-size 12px
+				height 25px
+				padding-top 10px
+				text-align center
+				vertical-align top
+				width 75px
+
+				#contenedorInicio
+					height 0px
+					width 0px
+					margin-top -99999px
+					transition height 0.1s ease-in
+
+					h1
+						margin-left 9999px
+
+					.txtDesplegable
+						height 0px
+						width 0px
+						font-size 0px
+						margin-left 9999px
+
+					.btnRegistro
+						height 0px
+						width 0px
+						font-size 0px
+						margin-left 9999px
+
+					a
+						text-decoration none
+
+						img
+							height 0px
+							margin-left 9999px
+							width 0px
+
+			#desplegableInicio:hover
+
+				#contenedorInicio
+					background #eee
+					border 2px solid #444444
+					border-bottom-right-radius 10px
+					border-bottom-left-radius 10px
+					border-top 5px solid #00325A
+					color #444444
+					height 220px
+					margin-top 11px
+					margin-left -100px
+					width 290px
+
+					h1
+						font-size 14px
+						margin-left 0px
+						padding 0px
+						padding-top 5px
+						margin 0px
+
+					.txtDesplegable
+						font-size 16px
+						margin-top 10px
+						margin-left 0px
+						padding-top 5px
+						padding-bottom 5px
+						height 20px
+						width 250px
+
+					.txtDesplegable:hover
+						border 2px solid gray
+
+					.btnRegistro
+						border 2px solid #00325a
+						border-radius 5px
+						background-color #027ac1
+						color white
+						font-size 16px
+						height 30px
+						margin-top 5px
+						margin-left 0px
+						margin-bottom 10px
+						width 256px
+
+					.btnRegistro:hover
+						border 2px solid #008FFF
+
+					a
+						text-decoration none
+						border none
+
+						img
+							border none
+							text-decoration none
+							height 25px
+							margin-left 0px
+							width 154px
+
+	#contenido
+		background-color white
+		-webkit-box-shadow 0px 10px 32px #000000
+		-moz-box-shadow 0px 10px 32px #000000
+		box-shadow 0px 10px 32px #000000
+		margin 0 auto 50px auto
+		padding-top 45px
+		height 100%
+		width 1150px //1000px
+
+		#banner
+			height 100px
+			margin-bottom 5px
+			width 100%
+
+			img
+				width 392px
+
+		#galeria
+			height 354px
+			margin-bottom 5px
+			width 100%
+
+			#galeriaPrincipal
+				border 1px solid gray
+				display inline-block
+				height 352px
+				width 648px
+
+				img
+					height 352px
+					width 648px
+
+				iframe
+					height 352px
+					width 648px
+
+			#divisor1
+				display inline-block
+				height 174px
+				margin-left 0px
+				padding-left 0px
+				vertical-align top
+				width 494px
+
+				.imgImportante1
+					display inline-block
+					height 173px
+					vertical-align top
+					width 244px
+
+					img
+						height 173px
+						width 244px
+						z-index 1
+
+					.textoGaleria
+						//background-color black
+						//background rgba(0,0,0,0.7)
+						background-color rgba(0, 0, 0, 0.7)
+						background url(rgba.php?name=black&a=70)
+						color white
+						height 45px
+						margin-top -53px
+						position absolute
+						padding-top 5px
+						text-align center
+						vertical-align bottom
+						width 244px
+						-webkit-transition all 1s ease
+						-moz-transition all 1s ease
+						z-index 2
+
+						p
+							font-size 0px
+							height 10px
+							margin 20px auto 0 auto
+							-webkit-transition all 1s ease
+							-moz-transition all 1s ease
+							width 10px
+
+							a
+								text-decoration none
+								color white
+
+					.textoGaleria:hover
+						height 165px
+						margin-top -175px
+
+						p
+							background  #005D94
+							border 2px solid #003857
+							border-radius 55px
+							-moz-border-radius 55px
+							-webkit-border-radius 55px
+							color white
+							cursor pointer
+							font-size 20px
+							height 60px
+							margin 20px auto 0 auto
+							padding-top 40px
+							width 100px
+
+						p:hover
+							background #003857
+							border 2px solid #005D94
+
+			#divisor2
+				height 174px
+				vertical-align top
+				margin-top -11.2em
+				margin-left 654px
+				width 496px
+
+				.imgImportante2
+					display inline-block
+					height 173px
+					vertical-align top
+					width 244px
+
+					img
+						height 173px
+						width 244px
+
+					.textoGaleria
+						background-color rgba(0, 0, 0, 0.7)
+						background url(rgba.php?name=black&a=70)
+						color white
+						height 45px
+						margin-top -53px
+						position absolute
+						padding-top 5px
+						text-align center
+						vertical-align bottom
+						width 244px
+						-webkit-transition all 1s ease
+						-moz-transition all 1s ease
+						z-index 2
+
+						p
+							font-size 0px
+							height 10px
+							margin 20px auto 0 auto
+							-webkit-transition all 1s ease
+							-moz-transition all 1s ease
+							width 10px
+
+							a
+								text-decoration none
+								color white
+
+					.textoGaleria:hover
+						height 165px
+						margin-top -175px
+
+						p
+							background  #005D94
+							border 2px solid #003857
+							border-radius 55px
+							-moz-border-radius 55px
+							-webkit-border-radius 55px
+							color white
+							cursor pointer
+							font-size 20px
+							height 60px
+							margin 20px auto 0 auto
+							padding-top 40px
+							width 100px
+
+						p:hover
+							background #003857
+							border 2px solid #005D94
+
+		#tecnologias
+			background-color #A2A2A2//#282828
+			border-top 1px solid #A2A2A2
+			border-bottom 1px solid #A2A2A2
+			color white
+			height 48px
+			width 100%
+
+			.logoLenguaje
+				border 1px solid #A2A2A2//#282828
+				display inline-block
+				font-size 0px
+				height 35px
+				margin 5px 4px 0 4px
+				margin-right 0px
+				vertical-align top
+				width 35px
+
+				a
+					background-color #A2A2A2
+					color #A2A2A2
+					text-decoration none
+
+					img
+						width 35px
+						height 35px
+
+				.tip
+					background-color #A2A2A2
+
+			.logoLenguaje:hover
+
+				.tip
+					background #005D94
+					border-top-left-radius 10px
+					border-bottom-right-radius 10px
+					text-align center
+					font-size 16px
+					margin-top -70px
+					position absolute
+					padding 5px 10px 5px 10px
+					-webkit-transition all 0.2s ease
+					-moz-transition all 1s ease
+					z-index 3
+
+		#contenedorNoticias
+			//border-right 1px dotted gray
+			display inline-block
+			padding-top 20px
+			margin-top 0px
+			margin-left 5px
+			width 841px
+			//sombra interna
+			-moz-box-shadow inset -10px 0px 10px rgba(238, 238, 238, 0.5)
+			-webkit-box-shadow inset -10px 0px 10px rgba(238, 238, 238, 0.5)
+			box-shadow inset -10px 0px 10px rgba(238, 238, 238, 0.5)
+			//termina sombra interna
+
+			#adSense
+				text-align center
+
+				img
+					width 90%
+
+			.noticia
+				border-bottom 2px dotted #D8D8D8
+				margin-bottom 25px
+				padding-bottom 20px
+				width 100%
+
+				.tituloNoticia
+					color #003857
+					font-size 28px
+					font-weight bold
+					padding-left 10px
+					padding-top 5px
+					padding-bottom 5px
+					//text-transform uppercase
+					width 821px
+
+				#autor
+					font-size 12px
+					text-align right
+					margin-right 20px
+					width 811px
+
+					a
+						color #008EDE
+						text-decoration none
+
+				#sociales
+					font-size 10px
+					text-align right
+					margin-top 6px
+					margin-right 20px
+					margin-bottom 10px
+					width 811px
+
+					a
+						cursor pointer
+						text-decoration none
+
+				#imagenNoticia
+					height 290px
+					margin 5px auto 5px auto
+					width 630px
+
+					img
+						border 1px dotted gray
+						height 310px
+						width 630px
+
+					iframe
+						height 310px
+						width 630px
+
+					#verMasImg
+						background-color rgba(0, 0, 0, 0.7)
+						background url(rgba.php?name=black&a=70)
+						border-top 2px solid black
+						border-left 2px solid black
+						border-top-left-radius 20px
+						color white
+						margin-left 456px
+						text-decoration none
+						height 25px
+						margin-top -36px
+						padding-top 5px
+						padding-left 10px
+						padding-right 10px
+						position absolute
+
+					#verMasImg:hover
+						background-color black
+						cursor pointer
+
+				#informacionNoticia
+					behavior url(/css/border-radius.htc)
+					-webkit-border-radius 10px
+					-moz-border-radius 10px
+					border-radius 10px
+					margin-left 10px
+					margin-right 10px
+					margin-top 40px
+					width 811px
+
+					.textoNoticia
+						font-family Arial
+						text-align justify
+						line-height 20px
+						margin-top 5px
+
+			#noPaginas
+				display inline-block
+				vertical-align top
+				margin-bottom 90px
+				width 695px
+
+				.pagina
+					background-color #005D94
+					border-radius 5px
+					-moz-border-radius 5px
+					-webkit-border-radius 5px
+					border 1px solid #003857
+					display inline-block
+					color white
+					cursor pointer
+					height 20px
+					padding-left 10px
+					padding-right 10px
+					padding-top 5px
+					margin-left 2px
+					text-align center
+
+				.pagina:hover
+					background-color #008EDE
+
+		#contenedorBlog
+			display inline-block
+			padding 20px
+			margin-top 0px
+			margin-left 5px
+			padding-bottom 100px
+			width 801px
+			//sombra interna
+			-moz-box-shadow inset -10px 0px 10px rgba(238, 238, 238, 0.5)
+			-webkit-box-shadow inset -10px 0px 10px rgba(238, 238, 238, 0.5)
+			box-shadow inset -10px 0px 10px rgba(238, 238, 238, 0.5)
+			//termina sombra interna
+
+			.noticiaBlog
+				margin-bottom 25px
+				padding-bottom 20px
+				width 100%
+
+				h1
+					color #003857
+					padding 0px
+					margin 0px
+					width 801px
+
+				#sociales
+					float right
+					margin-left 20px
+					margin-right 5px
+					width 100px
+
+					.redSocial
+						border 1px dotted gray
+						padding-top 5px
+						text-align center
+						margin-top 4px
+						width 100%
+
+				p
+					line-height 23px
+					text-align justify
+					margin-bottom 10px
+
+				img
+					border 1px dotted gray
+					height 310px
+					margin-top 10px
+					width 630px
+
+			#autorBlog
+				background-color #E5E5E5
+				border 2px dotted #B4B4B4
+				border-radius 20px
+				-moz-border-radius 20px
+				-webkit-border-radius 20px
+				height 120px
+				width 100%
+
+				#imagen
+					display inline-block
+					margin-left 10px
+					margin-right 10px
+					width 100px
+
+					img
+						background-color #eee
+						border-radius 50px
+						-moz-border-radius 50px
+						-webkit-border-radius 50px
+						height 100px
+						margin-top 10px
+						width 100px
+						-webkit-transform rotate(0deg)
+
+					img:hover
+						-webkit-transform rotate(720deg)
+						transition all 0.9s ease-in
+						-moz-transition all 0.9s ease-in
+
+				#informacion
+					display inline-block
+					height 100px
+					padding 10px
+					width 635px
+					vertical-align top
+
+					h3
+						display inline-block
+						color #474747
+						padding 0px
+						margin 0px
+						margin-top 10px
+
+					h4
+						display inline-block
+						color #7B7B7B
+						padding 0px
+						margin 0px
+						margin-left 10px
+						width 335px
+
+					img
+						display inline-block
+						height 15px
+						margin-top 10px
+						width 20px
+
+					h5
+						color #696969
+						display inline-block
+						font-size 16px
+						padding 0px
+						margin 0px
+						margin-bottom 10px
+
+					a
+						text-decoration none
+						color #7A7A7A
+
+					a:hover
+						color #474747
+
+			#disqusComentarios
+				margin-top 50px
+
+		#contenedorContacto
+			display inline-block
+			padding 20px
+			margin-top 0px
+			margin-left 5px
+			padding-bottom 100px
+			width 801px
+			//sombra interna
+			-moz-box-shadow inset -10px 0px 10px rgba(238, 238, 238, 0.5)
+			-webkit-box-shadow inset -10px 0px 10px rgba(238, 238, 238, 0.5)
+			box-shadow inset -10px 0px 10px rgba(238, 238, 238, 0.5)
+			//termina sombra interna
+
+			#contacto
+				margin-bottom 25px
+				padding-bottom 20px
+				width 100%
+
+				h1
+					color #003857
+					padding 0px
+					margin 0px
+					width 801px
+
+				#formulario
+					margin 20px auto 0 auto
+					width 700px
+
+					#fila
+
+						#label
+							display inline-block
+							padding-top 18px
+							font-weight bold
+							font-size 18px
+							vertical-align top
+							width 200px
+
+						#cajaTexto
+							display inline-block
+							width 490px
+
+					#btnContacto1
+						margin-top 15px
+						float right
+
+						.btnContacto
+							background #eee
+							border 0px solid gray
+							border-radius 10px
+							-moz-box-shadow  0px 0px 10px gray
+							-webkit-box-shadow  0px 0px 10px gray
+							box-shadow 0px 0px 10px gray
+							font-weight bold
+							font-size 16px
+							padding 15px
+							padding-top 7px
+							padding-bottom 7px
+							margin-right 15px
+							margin-bottom 25px
+
+						.btnContacto:hover
+							-moz-box-shadow  0px 0px 0px gray
+							-webkit-box-shadow  0px 0px 0px gray
+							box-shadow 0px 0px 0px gray
+							-moz-box-shadow inset 0px 0px 10px gray
+							-webkit-box-shadow inset 0px 0px 10px gray
+							box-shadow inset 0px 0px 10px gray
+
+			#mapaContacto
+				margin-top 55px
+				margin-bottom 25px
+				padding-bottom 20px
+				width 100%
+
+				#mapa
+					-moz-box-shadow 0px 0px 10px gray
+					-webkit-box-shadow 0px 0px 10px gray
+					box-shadow 0px 0px 10px gray
+					background #eee
+					border 0px dotted gray
+					border-radius 20px
+					height 300px
+					margin 0 auto 0 auto
+					width 700px
+
+		#lateral
+			//box-shadow  -10px 0px 20px #eee
+			display inline-block
+			//height 4400px
+			vertical-align top
+			padding-top 10px
+			margin-top 0px
+			width 297px
+
+			.transmision
+				border 1px dotted gray
+				padding 10px
+				margin-top 10px
+				width 273px
+
+				h5
+					color #003857
+					font-size 17px
+					padding 0px
+					margin-bottom 5px
+					text-align center
+					margin 0px
+
+				h6
+					color #003857
+					font-size 13px
+					padding 0px
+					text-align center
+					margin 0px
+
+					a
+						color #005D94
+
+					a:hover
+						color #00A3FF
+
+				#horariosTV
+					margin 30px auto 10px auto
+					width 200px
+
+					.bandera
+						display inline-block
+						margin-top 4px
+						width 137px
+
+						img
+							cursor pointer
+
+					.hora
+						color #003857
+						display inline-block
+						font-size 13px
+						text-align right
+						margin-top 4px
+						vertical-align top
+
+			#relevantes
+				border 1px dotted gray
+				margin-top 10px
+				width 293px
+
+				h1
+					background-color #eee
+					color #003857
+					text-align center
+					padding 0px
+					margin 0px
+
+				.relevante1
+					background-color #002338
+					color white
+					cursor pointer
+					font-weight bold
+					padding 10px
+					width 273px
+
+					.noRelevante
+						display inline-block
+						font-size 40px
+						text-align center
+						width 50px
+
+					.textoRelevante
+						display inline-block
+						font-size 23px
+						padding-top 10px
+						vertical-align top
+						width 210px
+
+				.relevante1:hover
+					background-color #6BCAFF
+
+				.relevante2
+					background-color #003B5D
+					cursor pointer
+					color white
+					font-weight bold
+					padding 10px
+					width 273px
+
+					.noRelevante
+						display inline-block
+						font-size 40px
+						text-align center
+						width 50px
+
+					.textoRelevante
+						display inline-block
+						font-size 23px
+						padding-top 10px
+						vertical-align top
+						width 210px
+
+				.relevante2:hover
+					background-color #27B1FF
+
+				.relevante3
+					background-color #004D79
+					cursor pointer
+					color white
+					font-weight bold
+					padding 10px
+					width 273px
+
+					.noRelevante
+						display inline-block
+						font-size 40px
+						text-align center
+						width 50px
+
+					.textoRelevante
+						display inline-block
+						font-size 23px
+						padding-top 10px
+						vertical-align top
+						width 210px
+
+				.relevante3:hover
+					background-color #009CF4
+
+				.relevante4
+					background-color #006198
+					color white
+					cursor pointer
+					font-weight bold
+					padding 10px
+					width 273px
+
+					.noRelevante
+						display inline-block
+						font-size 40px
+						text-align center
+						width 50px
+
+					.textoRelevante
+						display inline-block
+						font-size 23px
+						padding-top 10px
+						vertical-align top
+						width 210px
+
+				.relevante4:hover
+					background-color #0078BC
+
+				.relevante5
+					background-color #006CA9
+					color white
+					cursor pointer
+					font-weight bold
+					padding 10px
+					width 273px
+
+					.noRelevante
+						display inline-block
+						font-size 40px
+						text-align center
+						width 50px
+
+					.textoRelevante
+						display inline-block
+						font-size 23px
+						padding-top 10px
+						vertical-align top
+						width 210px
+
+				.relevante5:hover
+					background-color #006CA9
+
+				.relevante6
+					background-color #0078BC
+					cursor pointer
+					color white
+					font-weight bold
+					padding 10px
+					width 273px
+
+					.noRelevante
+						display inline-block
+						font-size 40px
+						text-align center
+						width 50px
+
+					.textoRelevante
+						display inline-block
+						font-size 23px
+						padding-top 10px
+						vertical-align top
+						width 210px
+
+				.relevante6:hover
+					background-color #0087D3
+
+			#encuesta
+				border 1px dotted gray
+				padding 10px
+				margin-top 10px
+				width 273px
+
+				h2
+					color #003857
+					font-size 25px
+					padding 0px
+					margin-bottom 5px
+					text-align center
+					margin 0px
+
+				#contenedorEncuesta
+					margin 10px auto 0 auto
+					width 200px
+
+					.rdBtn
+						display inline-block
+						text-align center
+						width 40px
+
+						.radioButton
+							color red
+
+					.lbl
+						display inline-block
+						font-size 18px
+						vertical-align top
+						width 130px
+
+					.btnEnviar
+						text-align right
+						width 200px
+
+						.btnEnviarEncuesta
+							background #eee
+							border 0px solid gray
+							border-radius 10px
+							-moz-box-shadow  0px 0px 10px gray
+							-webkit-box-shadow  0px 0px 10px gray
+							box-shadow 0px 0px 10px gray
+							font-weight bold
+							font-size 16px
+							padding 10px
+							padding-top 7px
+							padding-bottom 7px
+							margin-top 5px
+							margin-bottom 25px
+
+						.btnEnviarEncuesta:hover
+							-moz-box-shadow  0px 0px 0px gray
+							-webkit-box-shadow  0px 0px 0px gray
+							box-shadow 0px 0px 0px gray
+							-moz-box-shadow inset 0px 0px 10px gray
+							-webkit-box-shadow inset 0px 0px 10px gray
+							box-shadow inset 0px 0px 10px gray
+
+			#rentaEspacio1
+				border 1px dotted gray
+				padding 10px
+				margin-top 10px
+				width 273px
+
+				h1
+					color #003857
+					font-size 25px
+					padding 0px
+					padding-top 80px
+					padding-bottom 80px
+					margin-bottom 5px
+					text-align center
+					margin 0px
+
+			#rentaEspacio2
+				border 1px dotted gray
+				padding 10px
+				margin-top 10px
+				width 273px
+
+				h1
+					color #003857
+					font-size 25px
+					padding 0px
+					padding-top 80px
+					padding-bottom 80px
+					margin-bottom 5px
+					text-align center
+					margin 0px
+
+		#footer
+			background-color #5A5A5A//D3D3D3
+			color #E7E9E0//82837E
+			font-size 14px
+			padding-top 20px
+			padding-bottom 20px
+			text-align center
+			width 100%
+
+			a
+				color #E7E9E0//82837E
+				font-size 16px
+				margin-top 20px
+				margin-bottom 60px
+				text-decoration none
+
+			a:hover
+				color #C2C4BC//gray
+
+@media screen and (max-width: 1024px)
+	body
+
+		#superior1
+			text-align left
+			position fixed
+			width 100%
+			z-index 4
+
+			#otrosSuperior
+				margin-left 10px
+
+				#desplegableRegistro:hover
+
+					#contenedorRegistro
+						margin-left -130px
+
+				#desplegableInicio:hover
+
+					#contenedorInicio
+						margin-left -190px
+
+		#contenido
+			-webkit-box-shadow 0px 0px 0px #000000
+			-moz-box-shadow 0px 0px 0px #000000
+			box-shadow 0px 0px 0px #000000
+			width 1024px //1000px
+			margin 0 auto 0px auto
+
+			#banner
+
+				img
+					height 100px
+					width 390px
+
+			#galeria
+
+				#galeriaPrincipal
+					width 520px
+
+					img
+						width 520px
+
+					iframe
+						width 520px
+
+				#divisor1
+					width 496px
+
+					.imgImportante1
+
+						.textoGaleria
+
+							p
+								text-indent -9999px
+
+						.textoGaleria:hover
+
+							p
+								text-indent 0px
+
+				#divisor2
+					margin-left 525px
+					width 496px
+
+					.imgImportante2
+
+						.textoGaleria
+
+							p
+								text-indent -9999px
+
+						.textoGaleria:hover
+
+							p
+								text-indent 0px
+
+			#contenedorNoticias
+				margin-left 0px
+				width 700px
+
+				.noticia
+
+					.tituloNoticia
+						width 690px
+
+					#autor
+						width 690px
+
+					#sociales
+						width 690px
+
+					#informacionNoticia
+						width 670px
+
+			#contenedorBlog
+				margin-left 0px
+				width 670px
+
+				.noticiaBlog
+
+					h1
+						width 670px
+
+					p
+						line-height 23px
+						text-align justify
+						margin-bottom 10px
+
+					img
+						border 1px dotted gray
+						height 310px
+						margin-top 10px
+						width 630px
+
+				#autorBlog
+					background-color #E5E5E5
+					border 2px dotted #B4B4B4
+					border-radius 20px
+					height 120px
+					width 100%
+
+					#imagen
+						display inline-block
+						margin-left 10px
+						margin-right 10px
+						width 100px
+
+						img
+							background-color #eee
+							border-radius 50px
+							height 100px
+							margin-top 10px
+							width 100px
+							-webkit-transform rotate(0deg)
+
+						img:hover
+							-webkit-transform rotate(720deg)
+							transition all 0.9s ease-in
+							-moz-transition all 0.9s ease-in
+
+					#informacion
+						display inline-block
+						height 100px
+						padding 10px
+						width 500px
+						vertical-align top
+
+						h4
+							width 210px
+
+			#contenedorContacto
+				width 670px
+
+				#contacto
+
+					#formulario
+						width 660px
+
+						#fila
+
+							#label
+								width 200px
+
+							#cajaTexto
+								width 360px
+
+				#mapaContacto
+					width 640px
+
+					#mapa
+						width 660px
+
+@media screen and (max-width: 800px)
+	body
+
+		#superior1
+			padding-left 70px
+			height auto
+
+			#otrosSuperior
+				margin-left 150px
+				margin-top -5px
+				margin-bottom 5px
+
+				#desplegableIdioma
+					margin-top -34px
+					margin-left -120px
+
+				#desplegableIdioma:hover
+					background-color #0084EC
+
+					#contenedorIdioma
+						margin-left -40px
+
+				#desplegableRegistro
+					margin-top -34px
+
+				#desplegableRegistro:hover
+					background-color #0084EC
+
+					#contenedorRegistro
+						margin-left -110px
+
+				#desplegableInicio
+					margin-top -34px
+
+				#desplegableInicio:hover
+					background-color #0084EC
+
+					#contenedorInicio
+						margin-left -120px
+
+		#contenido
+			width 768px //256
+
+			#banner
+				margin-top 30px
+
+			#galeria
+				height auto
+
+				#galeriaPrincipal
+					display inline-block
+					width 510px
+
+					img
+						width 510px
+
+					iframe
+						width 510px
+
+				#divisor1
+					display inline-block
+					height 354px
+					vertical-align top
+					width 250px
+
+					.imgImportante1
+						display inline-block
+						height 177px
+						vertical-align top
+						width 250px
+
+						img
+							height 177px
+							width 250px
+							z-index 1
+
+						.textoGaleria
+							width 250px
+
+				#divisor2
+					height 284px
+					margin-top 0px
+					margin-left 0px
+					vertical-align none
+					width 768px
+
+					.imgImportante2
+						display inline-block
+						height 284px
+						vertical-align none
+						width 382px
+
+						img
+							display inline-block
+							vertical-align top
+							height 284px
+							width 382px
+
+						.textoGaleria
+							height 45px
+							margin-top -50px
+							width 382px
+
+							p
+								font-size 0px
+								height 10px
+								margin 20px auto 0 auto
+								-webkit-transition all 1s ease
+								width 10px
+
+						.textoGaleria:hover
+							height 270px
+							margin-top -275px
+
+				#noPaginas
+					margin-bottom 0px
+					width 100%
+			
+			#tecnologias
+				height auto
+
+			#contenedorNoticias
+				margin-left 0px
+				margin-bottom 10px
+				width 768px
+				-moz-box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+				-webkit-box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+				box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+
+				.noticia
+
+					.tituloNoticia
+						width 740px
+
+					#autor
+						width 740px
+
+					#sociales
+						width 740px
+
+					#informacionNoticia
+						width 740px
+
+			#contenedorBlog
+				margin-left 0px
+				margin-bottom 10px
+				width 730px
+				-moz-box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+				-webkit-box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+				box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+
+				.noticiaBlog
+
+					h1
+						width 670px
+
+					p
+						line-height 23px
+						text-align justify
+						margin-bottom 10px
+
+					img
+						border 1px dotted gray
+						height 310px
+						margin-top 10px
+						width 630px
+
+				#autorBlog
+					background-color #E5E5E5
+					border 2px dotted #B4B4B4
+					border-radius 20px
+					height 120px
+					width 100%
+
+					#imagen
+						display inline-block
+						margin-left 10px
+						margin-right 10px
+						width 100px
+
+						img
+							background-color #eee
+							border-radius 50px
+							height 100px
+							margin-top 10px
+							width 100px
+							-webkit-transform rotate(0deg)
+
+						img:hover
+							-webkit-transform rotate(720deg)
+							transition all 0.9s ease-in
+							-moz-transition all 0.9s ease-in
+
+					#informacion
+						display inline-block
+						height 100px
+						padding 10px
+						width 500px
+						vertical-align top
+
+						h4
+							width 210px
+
+			#contenedorContacto
+				margin-left 0px
+				margin-bottom 10px
+				width 730px
+				-moz-box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+				-webkit-box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+				box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+
+				#contacto
+
+					h1
+						width auto
+
+					#formulario
+						width 660px
+
+						#fila
+
+							#label
+								width 200px
+
+							#cajaTexto
+								width 360px
+
+				#mapaContacto
+					width 640px
+
+					#mapa
+						width 660px
+
+			#lateral
+				border-top 1px dotted gray
+				border-bottom 1px dotted gray
+				display block
+				vertical-align none
+				margin-top 0px
+				width 100%
+
+				.fb-like-box
+					margin-left 240px
+
+				.transmision
+					margin-left 88px
+
+				#relevantes
+					margin 10px auto 10px auto
+					width 590px
+
+					.relevante1
+						display inline-block
+
+					.relevante2
+						display inline-block
+						vertical-align top
+
+					.relevante3
+						display inline-block
+
+					.relevante4
+						display inline-block
+						vertical-align top
+
+					.relevante5
+						display inline-block
+
+					.relevante6
+						display inline-block
+						vertical-align top
+
+				#encuesta
+					margin-top -613px
+					margin-left 385px
+					margin-bottom 380px
+
+				#rentaEspacio1
+					display inline-block
+					margin-bottom 10px
+					margin-left 88px
+					vertical-align top
+					width 267px
+
+				#rentaEspacio2
+					display inline-block
+					margin-bottom 10px
+					margin-left 10px
+					vertical-align top
+					width 267px
+
+@media screen and (max-width: 768px)//en este estan los colores 
+	body
+
+		#superior1
+			padding-left 0px
+			height auto
+
+			#otrosSuperior
+				margin-left 182px
+				margin-top 0px
+				margin-bottom 0px
+
+				#desplegableIdioma
+					margin-top 0px
+					margin-left 0px
+
+				#desplegableIdioma:hover
+
+					#contenedorIdioma
+						margin-left -47px
+
+				#desplegableRegistro
+					margin-top 0px
+
+				#desplegableRegistro:hover
+
+					#contenedorRegistro
+						margin-left -150px
+
+				#desplegableInicio
+					margin-top 0px
+
+				#desplegableInicio:hover
+
+					#contenedorInicio
+						margin-left -230px
+
+		#contenido
+			width 768px //256
+
+			#banner
+				margin-top 0px
+
+			#galeria
+				height auto
+
+				#galeriaPrincipal
+					display inline-block
+					width 510px
+
+					img
+						width 510px
+
+					iframe
+						width 510px
+
+				#divisor1
+					display inline-block
+					height 354px
+					vertical-align top
+					width 250px
+
+					.imgImportante1
+						display inline-block
+						height 177px
+						vertical-align top
+						width 250px
+
+						img
+							height 177px
+							width 250px
+							z-index 1
+
+						.textoGaleria
+							width 250px
+
+				#divisor2
+					height 284px
+					margin-top 0px
+					margin-left 0px
+					vertical-align none
+					width 768px
+
+					.imgImportante2
+						display inline-block
+						height 284px
+						vertical-align none
+						width 382px
+
+						img
+							display inline-block
+							vertical-align top
+							height 284px
+							width 382px
+
+						.textoGaleria
+							height 45px
+							margin-top -50px
+							width 382px
+
+							p
+								font-size 0px
+								height 10px
+								margin 20px auto 0 auto
+								-webkit-transition all 1s ease
+								width 10px
+
+						.textoGaleria:hover
+							height 270px
+							margin-top -275px
+
+				#noPaginas
+					margin-bottom 0px
+					width 100%
+			
+			#tecnologias
+				height auto
+
+			#contenedorNoticias
+				margin-left 0px
+				margin-bottom 10px
+				width 768px
+				-moz-box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+				-webkit-box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+				box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+
+				.noticia
+
+					.tituloNoticia
+						width 740px
+
+					#autor
+						width 740px
+
+					#sociales
+						width 740px
+
+					#informacionNoticia
+						width 740px
+
+			#contenedorBlog
+				margin-left 0px
+				margin-bottom 10px
+				width 730px
+				-moz-box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+				-webkit-box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+				box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+
+				.noticiaBlog
+
+					h1
+						width 670px
+
+					p
+						line-height 23px
+						text-align justify
+						margin-bottom 10px
+
+					img
+						border 1px dotted gray
+						height 310px
+						margin-top 10px
+						width 630px
+
+				#autorBlog
+					background-color #E5E5E5
+					border 2px dotted #B4B4B4
+					border-radius 20px
+					height 120px
+					width 100%
+
+					#imagen
+						display inline-block
+						margin-left 10px
+						margin-right 10px
+						width 100px
+
+						img
+							background-color #eee
+							border-radius 50px
+							height 100px
+							margin-top 10px
+							width 100px
+							-webkit-transform rotate(0deg)
+
+						img:hover
+							-webkit-transform rotate(720deg)
+							transition all 0.9s ease-in
+							-moz-transition all 0.9s ease-in
+
+					#informacion
+						display inline-block
+						height 100px
+						padding 10px
+						width 500px
+						vertical-align top
+
+						h4
+							width 210px
+
+			#contenedorContacto
+				margin-left 0px
+				margin-bottom 10px
+				width 730px
+				-moz-box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+				-webkit-box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+				box-shadow inset 0px 0px 0px rgba(238, 238, 238, 0.5)
+
+				#contacto
+
+					h1
+						width auto
+
+					#formulario
+						width 660px
+
+						#fila
+
+							#label
+								width 200px
+
+							#cajaTexto
+								width 360px
+
+				#mapaContacto
+					width 640px
+
+					#mapa
+						width 660px
+
+			#lateral
+				border-top 1px dotted gray
+				border-bottom 1px dotted gray
+				display block
+				vertical-align none
+				margin-top 0px
+				width 100%
+
+				.fb-like-box
+					margin-left 240px
+
+				.transmision
+					margin-left 88px
+
+				#relevantes
+					margin 10px auto 10px auto
+					width 590px
+
+					.relevante1
+						display inline-block
+
+					.relevante2
+						display inline-block
+						vertical-align top
+
+					.relevante3
+						display inline-block
+
+					.relevante4
+						display inline-block
+						vertical-align top
+
+					.relevante5
+						display inline-block
+
+					.relevante6
+						display inline-block
+						vertical-align top
+
+				#encuesta
+					margin-top -613px
+					margin-left 385px
+					margin-bottom 380px
+
+				#rentaEspacio1
+					display inline-block
+					margin-bottom 10px
+					margin-left 88px
+					vertical-align top
+					width 267px
+
+				#rentaEspacio2
+					display inline-block
+					margin-bottom 10px
+					margin-left 10px
+					vertical-align top
+					width 267px
+
+@media screen and (max-width: 685px)
+	body
+
+		#superior1
+			padding-left 0px
+			height 40px
+
+			#otrosSuperior
+				margin-left 185px
+				margin-top 0px
+				margin-bottom 0px
+				height 40px
+
+				select
+					margin-left 210px
+
+				.txtBuscar
+					width 80px
+
+				.btnBuscar
+					border 0px
+					margin-left 0px
+					margin-right 0px
+
+				#desplegableIdioma
+					margin-top -32px
+					margin-left 0px
+					padding-left 2px
+					padding-right 2px
+					width 60px
+
+				#desplegableIdioma:hover
+
+					#contenedorIdioma
+						margin-left -47px
+
+				#desplegableRegistro
+					margin-top -32px
+					margin-left -5px
+					padding-left 2px
+					padding-right 2px
+					width 60px
+
+				#desplegableRegistro:hover
+
+					#contenedorRegistro
+						margin-left -110px
+
+				#desplegableInicio
+					margin-top -32px
+					margin-left -5px
+					padding-left 2px
+					padding-right 2px
+					width 60px
+
+				#desplegableInicio:hover
+
+					#contenedorInicio
+						margin-left -115px
+
+		#contenido
+			width 685px //256
+
+			#galeria
+				height auto
+				width 685px
+
+				#galeriaPrincipal
+					width 430px
+
+					img
+						width 430px
+
+					iframe
+						width 430px
+
+				#divisor1
+					width 248px
+
+					.imgImportante1
+						width 248px
+
+						img
+							width 248px
+
+						.textoGaleria
+							width 248px
+
+				#divisor2
+					width 685px
+
+					.imgImportante2
+						width 340px
+
+						img
+							width 340px
+
+						.textoGaleria
+							width 340px
+			
+			#tecnologias
+				height auto
+
+			#contenedorNoticias
+				width 685px
+
+				.noticia
+
+					.tituloNoticia
+						width 665px
+
+					#autor
+						width 665px
+
+					#sociales
+						width 665px
+
+					#informacionNoticia
+						width 665px
+
+				#noPaginas
+					margin-bottom 0px
+					width 100%
+
+					.pagina
+						margin-top 5px
+
+			#contenedorBlog
+				width 650px
+
+				.noticiaBlog
+
+					h1
+						width 600px
+
+					img
+						width 600px
+
+			#contenedorContacto
+				width 640px
+
+				#contacto
+
+					#formulario
+						width 635px
+
+						#fila
+
+							#label
+								width 200px
+
+							#cajaTexto
+								width 360px
+
+				#mapaContacto
+					width 635px
+
+					#mapa
+						width 635px
+
+			#lateral
+				border-top 1px dotted gray
+				border-bottom 1px dotted gray
+				display block
+				vertical-align none
+				margin-top 0px
+				width 100%
+
+				.fb-like-box
+					margin-left 190px
+
+				.transmision
+					margin-left 46px
+
+				#encuesta
+					margin-left 345px
+
+				#rentaEspacio1
+					margin-left 46px
+
+@media screen and (max-width: 640px)
+	body
+
+		#superior1
+			text-align left
+			padding-right 10px
+			padding-left 0px
+			height 40px
+
+			#otrosSuperior
+				margin-left 70px
+				margin-top 0px
+				margin-bottom 0px
+				height 40px
+
+				select
+					margin-left 0px
+
+				.txtBuscar
+					width 150px
+
+				.btnBuscar
+					border 0px
+					margin-left 0px
+					margin-right 0px
+
+				#desplegableIdioma
+					margin-top 0px
+					margin-left 0px
+
+				#desplegableRegistro
+					margin-top 0px
+					margin-left 0px
+
+				#desplegableRegistro:hover
+
+					#contenedorRegistro
+						margin-left -140px
+
+				#desplegableInicio
+					margin-top 0px
+					margin-left 0px
+
+				#desplegableInicio:hover
+
+					#contenedorInicio
+						margin-left -210px
+
+		#contenido
+			width 640px
+
+			#galeria
+				width 640px
+
+				#galeriaPrincipal
+					width 640px
+
+					img
+						width 640px
+
+					iframe
+						width 640px
+
+				#divisor1
+					display inline-block
+					width 320px
+
+					.imgImportante1
+						width 320px
+
+						img
+							width 320px
+
+						.textoGaleria
+							width 320px
+
+				#divisor2
+					display inline-block
+					vertical-align top
+					width 315px
+
+					.imgImportante2
+						width 315px
+						height 177px
+
+						img
+							height 177px
+							width 315px
+
+						.textoGaleria
+							width 315px
+
+						.textoGaleria:hover
+							height 165px
+							margin-top -175px
+
+							p
+								font-size 20px
+								height 60px
+								margin 20px auto 0 auto
+								padding-top 40px
+								width 100px
+
+			#contenedorNoticias
+				width 640px
+
+				.noticia
+
+					.tituloNoticia
+						width 625px
+
+					#autor
+						width 625px
+
+					#sociales
+						width 625px
+
+					#informacionNoticia
+						width 625px
+
+			#contenedorBlog
+				width 600px
+
+				.noticiaBlog
+
+					h1
+						width 580px
+
+					img
+						width 530px
+
+				#autorBlog
+
+					#informacion
+						width 400px
+
+						h4
+							width 110px
+
+			#contenedorContacto
+				width 560px
+
+				#contacto
+
+					#formulario
+						width 560px
+
+						#fila
+
+							#label
+								width 180px
+
+							#cajaTexto
+								width 360px
+
+				#mapaContacto
+					width 600px
+
+					#mapa
+						width 600px
+
+			#lateral
+				border-top 1px dotted gray
+				border-bottom 1px dotted gray
+				display block
+				vertical-align none
+				margin-top 0px
+				width 100%
+
+				.fb-like-box
+					margin-left 160px
+
+				.transmision
+					margin-left 26px
+
+				#encuesta
+					margin-left 325px
+
+				#rentaEspacio1
+					margin-left 26px
+
+@media screen and (max-width: 600px) //puse colores para ver el del contacto
+	body
+
+		#superior1
+
+			#otrosSuperior
+
+				.txtBuscar
+					width 100px
+
+		#contenido
+			width 600px //256
+
+			#galeria
+				height auto
+				width 600px
+
+				#galeriaPrincipal
+					width 600px
+
+					img
+						width 600px
+
+					iframe
+						width 600px
+
+				#divisor1
+					height 190px
+					width 600px
+
+					.imgImportante1
+						height 190px
+						width 298px
+
+						img
+							height 190px
+							width 298px
+
+						.textoGaleria
+							width 298px
+
+				#divisor2
+					height 173px
+					width 600px
+
+					.imgImportante2
+						height 173px
+						width 298px
+
+						img
+							height 173px
+							width 298px
+
+						.textoGaleria
+							width 298px
+
+						.textoGaleria:hover
+							height 165px
+							margin-top -170px
+
+			#contenedorNoticias
+				width 600px
+
+				.noticia
+
+					.tituloNoticia
+						width 580px
+
+					#autor
+						width 580px
+
+					#imagenNoticia
+						height 290px
+						width 500px
+
+						img
+							height 290px
+							width 500px
+
+						iframe
+							height 290px
+							width 500px
+
+						#verMasImg
+							margin-left 327px
+
+					#sociales
+						width 580px
+
+					#informacionNoticia
+						width 580px
+
+				#noPaginas
+					margin-bottom 0px
+					width 100%
+
+					.pagina
+						margin-top 5px
+
+			#contenedorBlog
+				width 560px
+
+				.noticiaBlog
+
+					h1
+						width 580px
+
+					img
+						width 530px
+
+				#autorBlog
+
+					#informacion
+						width 400px
+
+						h4
+							width 110px
+
+			#contenedorContacto
+				width 560px
+
+				#contacto
+
+					#formulario
+						width 560px
+
+						#fila
+
+							#label
+								width 180px
+
+							#cajaTexto
+								width 360px
+
+				#mapaContacto
+					width 535px
+
+					#mapa
+						width 535px
+
+			#lateral
+				border-top 1px dotted gray
+				border-bottom 1px dotted gray
+				display block
+				vertical-align none
+				margin-top 0px
+				width 100%
+
+				.fb-like-box
+					margin-left 150px
+
+				.transmision
+					margin-left 5px
+
+				#encuesta
+					margin-left 305px
+
+				#rentaEspacio1
+					margin-left 5px
+
+@media screen and (max-width: 568px)
+	body
+
+		#superior1
+
+			#otrosSuperior
+
+				#desplegableRegistro:hover
+
+					#contenedorRegistro
+						margin-left -170px
+
+				#desplegableInicio:hover
+
+					#contenedorInicio
+						margin-left -240px
+
+		#contenido
+			width 568px //256
+
+			#galeria
+				width 568px
+
+				#galeriaPrincipal
+					width 568px
+
+					img
+						width 568px
+
+					iframe
+						width 568px
+
+				#divisor1
+					height 177px
+					width 568px
+
+					.imgImportante1
+						height 177px
+						width 280px
+
+						img
+							width 282px
+
+						.textoGaleria
+							width 280px
+							margin-top -67px
+
+						.textoGaleria:hover
+							margin-top -186px
+
+				#divisor2
+					height 177px
+					width 568px
+
+					.imgImportante2
+						height 177px
+						width 280px
+
+						img
+							height 177px
+							width 282px
+
+						.textoGaleria
+							width 280px
+
+						.textoGaleria:hover
+							height 160px
+							margin-top -165px
+
+			#tecnologias
+
+				.logoLenguaje
+					margin 6px 6px 20px 6px
+
+			#contenedorNoticias
+				width 568px
+
+				.noticia
+
+					.tituloNoticia
+						width 560px
+
+					#autor
+						width 560px
+
+					#sociales
+						width 560px
+
+					#imagenNoticia
+						width 500px
+
+						img
+							width 500px
+
+						iframe
+							width 500px
+
+						#verMasImg
+							margin-left 325px
+
+					#informacionNoticia
+						width 540px
+
+				#noPaginas
+					width 540px
+
+			#contenedorBlog
+				width 530px
+
+				.noticiaBlog
+
+					h1
+						width 510px
+
+					img
+						width 470px
+						height 300px
+
+				#autorBlog
+
+					#informacion
+						width 370px
+
+						h4
+							width 90px
+
+			#contenedorContacto
+				width 530px
+
+				#contacto
+
+					#formulario
+						width 540px
+
+						#fila
+
+							#label
+								width 180px
+
+							#cajaTexto
+								width 340px
+
+						#btnContacto1
+							margin-top 15px
+							margin-right 20px
+							float right
+
+				#mapaContacto
+					width 530px
+
+					#mapa
+						width 530px
+
+			#lateral
+				border-top 2px dotted gray
+				border-bottom 2px dotted gray
+				display block
+				vertical-align none
+				margin-top 0px
+				width 100%
+
+				.transmision
+					margin-left 5px
+					width 250px
+
+				#relevantes
+					margin 10px auto 10px auto
+					width 543px
+
+					.relevante1
+						display inline-block
+						width auto
+
+						.noRelevante
+							display inline-block
+							font-size 25px
+							width 35px
+
+						.textoRelevante
+							display inline-block
+							font-size 23px
+							padding-top 3px
+							vertical-align top
+							width 210px
+
+					.relevante2
+						display inline-block
+						vertical-align top
+						width auto
+
+						.noRelevante
+							display inline-block
+							font-size 25px
+							width 35px
+
+						.textoRelevante
+							display inline-block
+							font-size 23px
+							padding-top 3px
+							vertical-align top
+							width 210px
+
+					.relevante3
+						display inline-block
+						width auto
+
+						.noRelevante
+							display inline-block
+							font-size 25px
+							width 35px
+
+						.textoRelevante
+							display inline-block
+							font-size 23px
+							padding-top 3px
+							vertical-align top
+							width 210px
+
+					.relevante4
+						display inline-block
+						vertical-align top
+						width auto
+
+						.noRelevante
+							display inline-block
+							font-size 25px
+							width 35px
+
+						.textoRelevante
+							display inline-block
+							font-size 23px
+							padding-top 3px
+							vertical-align top
+							width 210px
+
+					.relevante5
+						display inline-block
+						width auto
+
+						.noRelevante
+							display inline-block
+							font-size 25px
+							width 35px
+
+						.textoRelevante
+							display inline-block
+							font-size 23px
+							padding-top 3px
+							vertical-align top
+							width 210px
+
+					.relevante6
+						display inline-block
+						vertical-align top
+						width auto
+
+						.noRelevante
+							display inline-block
+							font-size 25px
+							width 35px
+
+						.textoRelevante
+							display inline-block
+							font-size 23px
+							padding-top 3px
+							vertical-align top
+							width 210px
+
+				#encuesta
+					margin-top -538px
+					margin-left 290px
+					margin-bottom 315px
+					width 250px
+
+				#rentaEspacio1
+					margin-left 5px
+					width 250px
+
+				#rentaEspacio2
+					width 250px
+
+@media screen and (max-width: 480px) //falta este y los de abajo responsive de menu
+	body
+
+		#superior1
+
+			#otrosSuperior
+
+				select
+					width 70px
+
+				.txtBuscar
+					width 70px
+
+				.btnBuscar
+					width 50px
+					font-size 13px
+
+				#desplegableIdioma
+					height 30px
+
+				#desplegableIdioma:hover
+
+					#contenedorIdioma
+						margin-top 16px
+
+				#desplegableRegistro
+					height 30px
+
+				#desplegableRegistro:hover
+
+					#contenedorRegistro
+						margin-top 16px
+						margin-left -230px
+
+				#desplegableInicio
+					height 30px
+
+				#desplegableInicio:hover
+
+					#contenedorInicio
+						margin-top 16px
+						margin-left -240px
+
+		#contenido
+			width 480px //256
+
+			#galeria
+				height auto
+				width 480px
+
+				#galeriaPrincipal
+					width 480px
+
+					img
+						width 480px
+
+					iframe
+						width 480px
+
+				#divisor1
+					height 177px
+					width 480px
+
+					.imgImportante1
+						height 177px
+						width 238px
+
+						img
+							height 177px
+							width 238px
+
+						.textoGaleria
+							width 238px
+							margin-top -55px
+
+						.textoGaleria:hover
+							margin-top -175px
+
+				#divisor2
+					height 177px
+					width 480px
+
+					.imgImportante2
+						height 177px
+						width 238px
+
+						img
+							height 177px
+							width 238px
+
+						.textoGaleria
+							width 238px
+
+						.textoGaleria:hover
+							height 165px
+							margin-top -170px
+
+			#tecnologias
+
+				.logoLenguaje
+					margin 6px 6px 20px 6px
+
+			#contenedorNoticias
+				width 480px
+
+				.noticia
+
+					.tituloNoticia
+						width 460px
+
+					#autor
+						width 460px
+
+					#sociales
+						width 460px
+
+					#imagenNoticia
+						height 200px
+						margin 5px auto 5px auto
+						width 460px
+
+						img
+							border 1px dotted gray
+							height 200px
+							width 460px
+
+						iframe
+							height 200px
+							width 460px
+
+						#verMasImg
+							margin-left 286px
+
+					#informacionNoticia
+						width 460px
+
+				#noPaginas
+					width 100%
+
+			#contenedorBlog
+				width 440px
+
+				.noticiaBlog
+
+					h1
+						font-size 30px
+						width 410px
+
+					img
+						width 400px
+						height 250px
+
+				#autorBlog
+
+					#informacion
+						width 293px
+
+						h3
+							font-size 15px
+
+						h4
+							font-size 13px
+							width 70px
+
+						a
+							font-size 13px
+
+			#contenedorContacto
+				width 440px
+
+				#contacto
+
+					#formulario
+						width 440px
+
+						#fila
+
+							#label
+								width 180px
+
+							#cajaTexto
+								margin-left 100px
+								width 340px
+
+						#btnContacto1
+							margin-top 15px
+							margin-right 20px
+							float right
+
+				#mapaContacto
+					width 440px
+
+					#mapa
+						width 440px
+
+			#lateral
+				border-top 2px dotted gray
+				border-bottom 2px dotted gray
+				display block
+				vertical-align none
+				margin-top 0px
+				width 100%
+
+				.fb-like-box
+					margin-left 100px
+
+				.transmision
+					margin-left 5px
+					width 220px
+
+				#relevantes
+					margin 10px auto 10px auto
+					width 470px
+
+					.relevante1
+
+						.noRelevante
+							font-size 20px
+							width 35px
+
+						.textoRelevante
+							font-size 18px
+							width 173px
+
+					.relevante2
+
+						.noRelevante
+							font-size 20px
+							width 35px
+
+						.textoRelevante
+							font-size 18px
+							width 173px
+
+					.relevante3
+
+						.noRelevante
+							font-size 20px
+							width 35px
+
+						.textoRelevante
+							font-size 18px
+							width 173px
+
+					.relevante4
+
+						.noRelevante
+							font-size 20px
+							width 35px
+
+						.textoRelevante
+							font-size 18px
+							width 173px
+
+					.relevante5
+
+						.noRelevante
+							font-size 20px
+							width 35px
+
+						.textoRelevante
+							font-size 18px
+							width 173px
+
+					.relevante6
+
+						.noRelevante
+							font-size 20px
+							width 35px
+
+						.textoRelevante
+							font-size 18px
+							width 173px
+
+				#encuesta
+					height 220px
+					margin-top -523px //revisar esta para celular en responsinator se ve bien
+					margin-left 255px
+					margin-bottom 280px
+					width 200px
+
+				#rentaEspacio1
+					margin-left 5px
+					width 206px
+
+				#rentaEspacio2
+					width 206px
+
+@media screen and (max-width: 380px)
+	body
+
+		#superior1
+
+			#otrosSuperior
+
+				select
+					margin-top -40px
+					width 0px
+
+				.txtBuscar
+					margin-left -100px
+					width 0px
+
+				.btnBuscar
+					margin-left -100px
+					margin-right 250px
+					width 0px
+					font-size 0px
+
+				#desplegableIdioma
+					height 30px
+
+					#contenedorIdioma
+						margin-left 100px
+
+				#desplegableIdioma:hover
+
+					#contenedorIdioma
+						margin-top 16px
+
+				#desplegableRegistro
+					height 30px
+
+				#desplegableRegistro:hover
+
+					#contenedorRegistro
+						margin-top 16px
+						margin-left -190px
+
+				#desplegableInicio
+					height 30px
+
+				#desplegableInicio:hover
+
+					#contenedorInicio
+						margin-top 16px
+						margin-left -260px
+
+		#contenido
+			width 380px //256
+
+			#banner
+
+				img
+					width 378px
+
+			#galeria
+				height auto
+				width 380px
+
+				#galeriaPrincipal
+					width 380px
+
+					img
+						width 380px
+
+					iframe
+						width 380px
+
+				#divisor1
+					height auto
+					width 380px
+
+					.imgImportante1
+						height 230px
+						width 380px
+
+						img
+							height 230px
+							width 380px
+
+						.textoGaleria
+							width 380px
+
+				#divisor2
+					height auto
+					width 380px
+
+					.imgImportante2
+						height 230px
+						width 380px
+
+						img
+							height 230px
+							width 380px
+
+						.textoGaleria
+							width 380px
+
+						.textoGaleria:hover
+							height 165px
+							margin-top -170px
+
+			#tecnologias
+
+				.logoLenguaje
+					margin 6px 6px 20px 6px
+
+			#contenedorNoticias
+				width 380px
+
+				.noticia
+
+					.tituloNoticia
+						width 360px
+
+					#autor
+						width 360px
+
+					#sociales
+						width 360px
+
+					#imagenNoticia
+						height 160px
+						margin 5px auto 5px auto
+						width 360px
+
+						img
+							border 1px dotted gray
+							height 160px
+							width 360px
+
+						iframe
+							height 160px
+							width 360px
+
+						#verMasImg
+							margin-left 186px
+
+					#informacionNoticia
+						width 360px
+
+				#noPaginas
+					width 100%
+
+					.pagina
+						margin-bottom 5px
+
+			#contenedorBlog
+				width 340px
+
+				.noticiaBlog
+
+					h1
+						font-size 27px
+						width 320px
+
+					img
+						width 290px
+						height 210px
+
+				#autorBlog
+					height auto
+
+					#imagen
+						display block
+						margin-left 0px
+						margin-right 0px
+						margin 20px auto 0 auto
+						width 150px
+
+						img
+							border-radius 100px
+							height 150px
+							margin-top 0px
+							width 150px
+
+					#informacion
+						text-align center
+						width 290px
+
+						h3
+							margin-left 5px
+							font-size 15px
+
+						h4
+							font-size 13px
+							width auto
+
+			#contenedorContacto
+				width 340px
+
+				#contacto
+
+					#formulario
+						width 320px
+
+						#fila
+
+							#label
+								width 180px
+
+							#cajaTexto
+								margin-left 0px
+								width 340px
+
+						#btnContacto1
+							margin-top 15px
+							margin-right 0px
+							float right
+
+				#mapaContacto
+					width 340px
+
+					#mapa
+						width 340px
+
+			#lateral
+				border-top 2px dotted gray
+				border-bottom 2px dotted gray
+				display block
+				vertical-align none
+				margin-top 0px
+				width 100%
+
+				.fb-like-box
+					margin-left 40px
+
+				.transmision
+					margin-left 5px
+					width 350px
+
+				#relevantes
+					margin 10px auto 10px auto
+					width 370px
+
+					.relevante1
+						width 350px
+
+						.noRelevante
+							font-size 30px
+
+						.textoRelevante
+							font-size 24px
+							width 270px
+
+					.relevante2
+						width 350px
+
+						.noRelevante
+							font-size 30px
+
+						.textoRelevante
+							font-size 24px
+							width 270px
+
+					.relevante3
+						width 350px
+
+						.noRelevante
+							font-size 30px
+
+						.textoRelevante
+							font-size 24px
+							width 270px
+
+					.relevante4
+						width 350px
+
+						.noRelevante
+							font-size 30px
+
+						.textoRelevante
+							font-size 24px
+							width 270px
+
+					.relevante5
+						width 350px
+
+						.noRelevante
+							font-size 30px
+
+						.textoRelevante
+							font-size 24px
+							width 270px
+
+					.relevante6
+						width 350px
+
+						.noRelevante
+							font-size 30px
+
+						.textoRelevante
+							font-size 24px
+							width 270px
+
+				#encuesta
+					height 220px
+					margin-top 0px
+					margin-left 5px
+					margin-bottom 10px
+					width 350px
+
+				#rentaEspacio1
+					margin-left 5px
+					width 350px
+
+				#rentaEspacio2
+					margin-left 5px
+					width 350px
+
+@media screen and (max-width: 320px)
+	body
+
+		#superior1
+
+			#otrosSuperior
+
+				select
+					margin-top -40px
+					width 0px
+
+				.txtBuscar
+					margin-left -130px
+					width 0px
+
+				.btnBuscar
+					margin-right 210px
+					width 0px
+					font-size 0px
+
+				#desplegableIdioma
+					height 30px
+
+					#contenedorIdioma
+						margin-left 100px
+
+				#desplegableIdioma:hover
+
+					#contenedorIdioma
+						margin-top 16px
+
+				#desplegableRegistro:hover
+
+					#contenedorRegistro
+						margin-top 16px
+						margin-left -154px
+
+				#desplegableInicio:hover
+
+					#contenedorInicio
+						margin-top 16px
+						margin-left -220px
+
+		#contenido
+			box-shadow 0px 0px 0px gray
+			width 320px
+
+			#banner
+				margin-top 0px
+				margin-bottom 0px
+
+				img
+					height auto
+					width 100%
+
+			#galeria
+				height auto
+				width 320px
+
+				#galeriaPrincipal
+					height 220px
+					width 316px
+
+					img
+						height 220px
+						width 316px
+
+					iframe
+						height 220px
+						width 316px
+
+				#divisor1
+					text-indent -9999px
+					height 0px
+					width 0px
+
+					.imgImportante1
+						text-indent -9999px
+						height 0px
+						width 0px
+
+						img
+							text-indent -9999px
+							height 0px
+							width 0px
+
+						.textoGaleria
+							text-indent -9999px
+							font-size 0px
+							width 0px
+
+						.textoGaleria:hover
+							text-indent -9999px
+							height 0px
+
+							p
+								text-indent -9999px
+								height 0px
+								margin-top -0px
+								font-size 0px
+
+				#divisor2
+					text-indent -9999px
+					height 0px
+					width 0px
+
+					.imgImportante2
+						text-indent -9999px
+						height 0px
+						width 0px
+
+						img
+							text-indent -9999px
+							height 0px
+							width 0px
+
+						.textoGaleria
+							text-indent -9999px
+							font-size 0px
+							width 0px
+
+						.textoGaleria:hover
+							text-indent -9999px
+							height 0px
+							margin-top -0px
+
+							p
+								text-indent -9999px
+								height 0px
+								margin-top -0px
+								font-size 0px
+
+			#tecnologias
+
+				.logoLenguaje
+					margin 6px 6px 20px 6px
+
+			#contenedorNoticias
+				width 320px
+
+				.noticia
+
+					.tituloNoticia
+						font-size 18px
+						text-transform uppercase
+						width 300px
+
+					#autor
+						width 300px
+
+					#sociales
+						width 300px
+
+					#imagenNoticia
+						height 200px
+						margin 5px auto 5px auto
+						width 300px
+
+						img
+							border 1px dotted gray
+							height 200px
+							width 300px
+
+						iframe
+							height 200px
+							width 300px
+
+						a
+							text-decoration none
+
+							#verMasImg
+								margin-left 120px
+
+					#informacionNoticia
+						width 300px
+
+						.textoNoticia
+							font-size 14px
+							line-height auto
+
+				#noPaginas
+					width 100%
+
+					.pagina
+						margin-top 5px
+
+			#contenedorBlog
+				width 280px
+
+				.noticiaBlog
+
+					h1
+						font-size 24px
+						width 300px
+
+					img
+						width 260px
+						height 190px
+
+				#autorBlog
+					height auto
+
+					#imagen
+						width 100px
+
+						img
+							border-radius 50px
+							height 100px
+							width 100px
+
+					#informacion
+						padding 0px
+						text-align center
+						width 290px
+
+						h3
+							display block
+							padding 0px
+							margin 0px
+							margin-top 5px
+
+						h4
+							display block
+							padding 0px
+							margin 0px
+							margin-left 0px
+							width auto
+
+						img
+							height 10px
+							width 15px
+
+						h5
+							font-size 14px
+
+						a
+							font-size 14px
+
+			#contenedorContacto
+				width 280px
+
+				#contacto
+
+					h1
+						font-size 25px
+
+					#formulario
+						margin 0px
+						width 280px
+
+						#fila
+
+							#label
+								width 100%
+
+							#cajaTexto
+								width 280px
+
+				#mapaContacto
+					width 280px
+
+					#mapa
+						width 280px
+
+			#lateral
+				border-top 2px dotted gray
+				border-bottom 2px dotted gray
+				display block
+				vertical-align none
+				margin-top 0px
+				width 100%
+
+				.fb-like-box
+					margin-left 10px
+
+				.transmision
+					margin-left 5px
+					width 285px
+
+				#relevantes
+					margin 10px 5px 10px 5px
+					width 305px
+
+					.relevante1
+						width 285px
+
+						.noRelevante
+							font-size 30px
+
+						.textoRelevante
+							width 240px
+
+					.relevante2
+						width 285px
+
+						.noRelevante
+							font-size 30px
+
+						.textoRelevante
+							width 240px
+
+					.relevante3
+						width 285px
+
+						.noRelevante
+							font-size 30px
+
+						.textoRelevante
+							width 240px
+
+					.relevante4
+						width 285px
+
+						.noRelevante
+							font-size 30px
+
+						.textoRelevante
+							width 240px
+
+					.relevante5
+						width 285px
+
+						.noRelevante
+							font-size 30px
+
+						.textoRelevante
+							width 240px
+
+					.relevante6
+						width 285px
+
+						.noRelevante
+							font-size 30px
+
+						.textoRelevante
+							width 240px
+
+				#encuesta
+					height 220px
+					margin-top 0px
+					margin-left 5px
+					margin-bottom 10px
+					width 285px
+
+				#rentaEspacio1
+					margin-left 5px
+					width 285px
+
+				#rentaEspacio2
+					margin-left 5px
+					width 285px
+
+			#footer
+				padding-bottom 30px
+
+@media screen and (max-width: 250px)
+	body
+
+		#superior1
+
+			#otrosSuperior
+				margin-left 55px
+				padding-left 0px
+
+				.txtBuscar
+					margin-left -145px
+
+				#desplegableIdioma
+					margin-left -10px
+					width 40px
+
+					#contenedorIdioma
+						margin-left 100px
+
+				#desplegableRegistro:hover
+
+					#contenedorRegistro
+						height 280px
+						margin-left -100px
+						width 230px
+
+						.txtDesplegable
+							width 210px
+
+						.btnRegistro
+							font-size 14px
+							width 180px
+
+				#desplegableInicio:hover
+
+					#contenedorInicio
+						margin-left -165px
+						height 230px
+						width 230px
+
+						.txtDesplegable
+							width 210px
+
+						.btnRegistro
+							font-size 14px
+							width 180px
+
+		#contenido
+			width 250px
+
+			#galeria
+				width 247px
+
+				#galeriaPrincipal
+					width 247px
+
+					img
+						width 247px
+
+			#tecnologias
+
+				.logoLenguaje
+					margin 6px 6px 20px 6px
+
+			#contenedorNoticias
+				width 240px
+
+				.noticia
+
+					.tituloNoticia
+						width 220px
+
+					#autor
+						width 220px
+
+					#sociales
+						width 220px
+
+					#imagenNoticia
+						height 200px
+						width 220px
+
+						img
+							height 200px
+							width 220px
+
+						iframe
+							height 200px
+							width 220px
+
+						a
+
+							#verMasImg
+								margin-left 40px
+
+					#informacionNoticia
+						width 220px
+
+			#contenedorBlog
+				width 200px
+
+				.noticiaBlog
+
+					h1
+						width 190px
+
+					img
+						width 190px
+						height 130px
+
+				#autorBlog
+
+					#informacion
+						padding-bottom 5px
+						height auto
+						width 200px
+
+			#contenedorContacto
+				width 200px
+
+				#contacto
+
+					h1
+						font-size 22px
+
+					#formulario
+						width 200px
+
+						#fila
+
+							#cajaTexto
+								width 200px
+
+				#mapaContacto
+					width 200px
+
+					#mapa
+						width 200px
+
+			#lateral
+				margin-left -999px
+				margin-top -99999px
+				position fixed
+				height 0px
+				width 0px
+
+				.fb-like-box
+					width 0px
+					height 0px
+
+				.transmision
+					width 0px
+					height 0px
+
+				#relevantes
+					width 0px
+					height 0px
+
+				#encuesta
+					width 0px
+					height 0px
+
+				#rentaEspacio1
+					width 0px
+					height 0px
+
+				#rentaEspacio2
+					width 0px
+					height 0px
+
+@media screen and (max-width: 240px)
+	body
+
+		#superior1
+
+			#otrosSuperior
+
+				#desplegableInicio:hover
+
+					#contenedorInicio
+						margin-left -170px
+
+		#contenido
+			width 240px
+
+			#banner
+				margin-top 0px
+				margin-bottom 0px
+
+			#galeria
+				width 240px
+
+				#galeriaPrincipal
+					height 200px
+					width 240px
+
+					img
+						height 200px
+						width 240px
+
+					iframe
+						height 200px
+						width 240px
+
+			#tecnologias
+
+				.logoLenguaje
+					margin 6px 6px 20px 6px
+
+			#contenedorNoticias
+				width 240px
+
+				.noticia
+
+					.tituloNoticia
+						width 220px
+
+					#autor
+						width 220px
+
+					#sociales
+						width 220px
+
+					#imagenNoticia
+						height 200px
+						width 220px
+
+						img
+							height 200px
+							width 220px
+
+						iframe
+							height 200px
+							width 220px
+
+						a
+
+							#verMasImg
+								margin-left 40px
+
+					#informacionNoticia
+						width 220px
+
+			#contenedorBlog
+				width 200px
+
+				.noticiaBlog
+
+					h1
+						width 190px
+
+					img
+						width 190px
+						height 130px
+
+				#autorBlog
+
+					#informacion
+						padding-bottom 5px
+						height auto
+						width 200px
+
+			#contenedorContacto
+				width 200px
+
+				#contacto
+
+					h1
+						font-size 22px
+
+					#formulario
+						width 200px
+
+						#fila
+
+							#cajaTexto
+								width 200px
+
+				#mapaContacto
+					width 200px
+
+					#mapa
+						width 200px
+
+			#lateral
+				margin-left -999px
+				margin-top -99999px
+				position fixed
+				height 0px
+				width 0px
+
+				.fb-like-box
+					width 0px
+					height 0px
+
+				.transmision
+					width 0px
+					height 0px
+
+				#relevantes
+					width 0px
+					height 0px
+
+				#encuesta
+					width 0px
+					height 0px
+
+				#rentaEspacio1
+					width 0px
+					height 0px
+
+				#rentaEspacio2
+					width 0px
+					height 0px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

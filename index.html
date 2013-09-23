@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+		<title> .: codeJobs :. </title>
+		<meta name="description" content="Nuevo diseno de CodeJobs" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<link rel="icon" type="image/ico" href="img/favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="stylesheet" type="text/css" href="css/menu.css" />
+		<!-- Sociales-->
+		<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+			{lang: 'es-419'}
+		</script>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+		</script>
+		 
+		<!-- Cosas de Facebook Lateral -->
+		<script>(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+					js = d.createElement(s); js.id = id;
+					js.src = "//connect.facebook.net/es_LA/all.js#xfbml=1";
+					fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+		</script>
+		
+		<!--/****************************\-->
+		<link rel="stylesheet" type="text/css" href="css/number_slideshow.css"></link>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/number_slideshow.js"></script>
+
+		<script language="javascript" type="text/javascript">
+			$(function() {
+				$("#number_slideshow1").number_slideshow({
+					slideshow_autoplay: 'enable',//enable disable
+					slideshow_time_interval: 5000,
+					slideshow_transition_speed: 'slow',//'normal','slow','fast' or numeral
+					slideshow_window_background_color: "#eee",
+					slideshow_window_padding: '0',
+					/*slideshow_window_width: '290',
+					slideshow_window_height: '150',*/
+					slideshow_button_current_text_color: '#fff',
+					slideshow_border_size: '0',
+					slideshow_border_color: '#434343',
+					slideshow_show_button: 'enable',//enable disable
+					slideshow_show_title: 'disable',//enable disable
+					slideshow_button_text_color: '#FFF',
+					slideshow_button_background_color: '#818181',
+					slideshow_button_current_background_color: '#434343',
+					slideshow_button_border_color: '#434343',
+					slideshow_loading_gif: 'loading.gif',//loading pic, you can replace it use youself gif.
+					slideshow_button_border_size: '0'
+					});
+				});
+		</script>
+		<!--/****************************\-->
+
+	</head>
+	<body>
+		<div id="superior1">
+			<div class="container">
+				<a class="toggleMenu" href="#">Menu</a>
+				<ul class="nav">
+					<li>
+						<a href="index.html">Inicio</a>
+					</li>
+					<li>
+						<a href="index.html">Códigos</a>
+					</li>
+					<li>
+						<a href="index.html">Foros</a>
+					</li>
+					<li>
+						<a href="index.html">Videos</a>
+					</li>
+					<li>
+						<a href="index.html">Marcadores</a>
+					</li>
+				</ul>
+			</div>
+			<div id="otrosSuperior">
+				<form>
+					<select style="height: 25px;">
+						<option value="blog"> Blog </option>
+						<option value="codigos"> Códigos </option>
+						<option value="marcadores"> Marcadores </option>
+					</select>
+					<input type="text" name="txtBuscar" class="txtBuscar">
+					<input type="submit" name="btnBuscar" class="btnBuscar" value="Buscar">
+					<div id="desplegableIdioma">
+						Idioma
+						<div id="contenedorIdioma">
+							<h1>Selecciona un idioma</h1>
+							<img src="img/bandera/mexico.png">
+							<img src="img/bandera/eua.png">
+							<img src="img/bandera/brasil.png">
+							<img src="img/bandera/italia.png">
+							<img src="img/bandera/francia.png">
+						</div>
+					</div>
+					<div id="desplegableRegistro">
+						Registrar
+						<div id="contenedorRegistro">
+							<h1>¿Eres nuevo en CodeJobs?, ¡Regístrate!</h1>
+							<input type="text" class="txtDesplegable" placeholder="Nombre Completo">
+							<input type="text" class="txtDesplegable" placeholder="Email">
+							<input type="text" class="txtDesplegable" placeholder="Contraseña">
+							<input type="submit" class="btnRegistro" value="¡Regístrate en CodeJobs!">
+							<a href="http://on.fb.me/1f3W5H9" target="_blank">
+								<img src="img/otros/facebook_es.png">
+							</a>
+							<a href="http://bit.ly/1f3W2ek" target="_blank">
+								<img src="img/otros/twitter_es.png">
+							</a>
+						</div>
+					</div>
+					<div id="desplegableInicio">
+						Conectar
+						<div id="contenedorInicio">
+							<h1>¿Tienes una cuenta?, Conéctate!</h1>
+							<input type="text" class="txtDesplegable" placeholder="Nombre de Usuario o Email">
+							<input type="text" class="txtDesplegable" placeholder="Contraseña">
+							<input type="submit" class="btnRegistro" value="Conectar">
+							<a href="http://on.fb.me/1f3W5H9" target="_blank">
+								<img src="img/otros/facebook_es.png">
+							</a>
+							<a href="http://bit.ly/1f3W2ek" target="_blank">
+								<img src="img/otros/twitter_es.png">
+							</a>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<div id="contenido">
+			<div id="banner">
+				<img src="img/banner.png">
+			</div>
+			<div id="galeria">
+				<div id="galeriaPrincipal">
+					<article>
+						<div id="number_slideshow1" class="number_slideshow">
+	                        <ul>
+								<li>
+									<a href="blog.html">
+										<img src="img/noticias/1.png" />
+										<div id="infoGaleria">
+											Se filtran imagenes del nuevo Nokia Lumia, se espera algo que impacte al mercado movil.
+										</div>
+									</a>
+								</li>
+	                            
+								<li>
+									<a href="blog.html">
+										<img src="img/noticias/2.png" />
+										<div id="infoGaleria">
+											NelFlix sigue estrenando series originales y el incremento en suscriptores pareciera no tener fin.
+										</div>
+									</a>
+	                            </li>
+	                            <li>
+	                                <a href="blog.html">
+	                                    <img src="img/noticias/3.png" />
+										<div id="infoGaleria">
+											Galaxy Note, ¿Cumple lo que esperabamos de el?
+										</div>
+	                                </a>
+	                            </li>
+	                        </ul>
+	                        <ul class="number_slideshow_nav">
+	                            <li><a>1</a></li>
+	                            <li><a>2</a></li>
+	                            <li><a>3</a></li>
+	                        </ul>
+	                        <div style="clear: both"></div>
+	                    </div>
+	                </article>
+				</div>
+				<div id="divisor1">
+					<div class="imgImportante1">
+						<img src="img/principal/recuadros/1.jpg">
+						<div class="textoGaleria">
+							Nuevos patentes MAC
+							<p> <a href="blog.html">Ver Mas</a> </p>
+						</div>
+					</div>
+					<div class="imgImportante1">
+						<img src="img/principal/recuadros/2.jpg">
+						<div class="textoGaleria">
+							Viaje espacial "Una Realidad"
+							<p> <a href="blog.html">Ver Mas</a> </p>
+						</div>
+					</div>
+				</div>
+				<div id="divisor2">
+					<div class="imgImportante2">
+						<img src="img/principal/recuadros/3.jpg">
+						<div class="textoGaleria">
+							Tecnologia Verde
+							<p> <a href="blog.html">Ver Mas</a> </p>
+						</div>
+					</div>
+					<div class="imgImportante2">
+						<img src="img/principal/recuadros/4.jpg">
+						<div class="textoGaleria">
+							I Love Technology
+							<p> <a href="blog.html">Ver Mas</a> </p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="tecnologias">
+				<center>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/ajax.png"></a>
+						<div class="tip">Ajax</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/android.png"></a>
+						<div class="tip">Android</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/backBoneJS.png"></a>
+						<div class="tip">BackBoneJS</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/codeigniter.png"></a>
+						<div class="tip">Codeigniter</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/css3.png"></a>
+						<div class="tip">CSS3</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/databases.png"></a>
+						<div class="tip">Database</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/eMarketing.png"></a>
+						<div class="tip">eMarketing</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/gitHub.png"></a>
+						<div class="tip">gitHub</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/html5.png"></a>
+						<div class="tip">HTML5</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/iOS.png"></a>
+						<div class="tip">iOS</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/java.png"></a>
+						<div class="tip">Java</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/javaScript.png"></a>
+						<div class="tip">JavaScript</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/jQuery.png"></a>
+						<div class="tip">jQuery</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/mongoDB.png"></a>
+						<div class="tip">MongoDB</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/mySql.png"></a>
+						<div class="tip">MySQL</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/nodeJS.png"></a>
+						<div class="tip">NodeJS</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/php.png"></a>
+						<div class="tip">PHP</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/python.png"></a>
+						<div class="tip">Python</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/ruby.png"></a>
+						<div class="tip">Ruby</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/RoR.png"></a>
+						<div class="tip">RoR</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/socialMedia.png"></a>
+						<div class="tip">SocialMedia</div>
+					</div>
+					<div class="logoLenguaje">
+						<a href="#"><img src="img/logos/zanPHP.png"></a>
+						<div class="tip">ZanPHP</div>
+					</div>
+				</center>
+			</div>
+
+			<!-- Las noticias -->
+			<div id="contenedorNoticias">
+				<div id="adSense"><img src="img/adSense/ad.png"></div>
+				<div class="noticia">
+					<div class="tituloNoticia"> Nokia Lumia y las sorpresas con las que llega. </div>
+					<div id="autor">
+						Publicado hace 19 horas en <a href="#">interfaz y usuario</a> por <a href="#">@antauri7</a>
+					</div>
+					<div id="sociales">
+						<a href="#">
+							<!-- <div class="g-plusone" data-size="medium" data-href="http://www.codejobs.biz/"></div> -->
+						</a>
+						<a href="#">
+							<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.codejobs.biz/" data-via="antauri7" data-lang="es">Twittear</a> -->						</a>
+						<a href="#">
+							<!-- <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: es_ES </script>
+							<script type="IN/Share" data-url="http://www.codejobs.biz/" data-counter="right"></script> -->						</a>
+					</div>
+					<div id="imagenNoticia">
+						<img src="img/noticias/1.png">
+						<a href="blog.html">
+							<div id="verMasImg">
+								Ver Noticia Completa
+							</div>
+						</a>
+					</div>
+					<div id="informacionNoticia">
+						<div class="textoNoticia">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. 
+						</div>
+					</div>
+				</div>
+				
+				<div class="noticia">
+					<div class="tituloNoticia"> GoogleGlass: Video de lo que nos ofrecera. </div>
+					<div id="autor">
+						Publicado hace 19 horas en <a href="#">interfaz y usuario</a> por <a href="#">@antauri7</a>
+					</div>
+					<div id="sociales">
+						<a href="#">
+							<!-- <div class="g-plusone" data-size="medium" data-href="http://www.codejobs.biz/"></div> -->
+						</a>
+						<a href="#">
+							<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.codejobs.biz/" data-via="antauri7" data-lang="es">Twittear</a> -->						</a>
+						<a href="#">
+							<!-- <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: es_ES </script>
+							<script type="IN/Share" data-url="http://www.codejobs.biz/" data-counter="right"></script> -->						</a>
+					</div>
+					<div id="imagenNoticia">
+						<img src="img/noticias/2.png">
+						<!-- <iframe src="http://player.vimeo.com/video/40356427" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> -->
+						<a href="blog.html">
+							<div id="verMasImg">
+								Ver Noticia Completa
+							</div>
+						</a>
+					</div>
+					<div id="informacionNoticia">
+						<div class="textoNoticia">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. 
+						</div>
+					</div>
+				</div>
+				<div id="adSense"><img src="img/adSense/ad.png"></div>
+				<div class="noticia">
+					<div class="tituloNoticia"> galaxy note: ¿es lo que todos esperabamos? </div>
+					<div id="autor">
+						Publicado hace 19 horas en <a href="#">interfaz y usuario</a> por <a href="#">@antauri7</a>
+					</div>
+					<div id="sociales">
+						<a href="#">
+							<!-- <div class="g-plusone" data-size="medium" data-href="http://www.codejobs.biz/"></div> -->
+						</a>
+						<a href="#">
+							<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.codejobs.biz/" data-via="antauri7" data-lang="es">Twittear</a> -->						</a>
+						<a href="#">
+							<!-- <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: es_ES </script>
+							<script type="IN/Share" data-url="http://www.codejobs.biz/" data-counter="right"></script> -->						</a>
+					</div>
+					<div id="imagenNoticia">
+						<img src="img/noticias/3.png">
+						<a href="blog.html">
+							<div id="verMasImg">
+								Ver Noticia Completa
+							</div>
+						</a>
+					</div>
+					<div id="informacionNoticia">
+						<div class="textoNoticia">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. 
+						</div>
+					</div>
+				</div>
+				
+				<div class="noticia">
+					<div class="tituloNoticia"> OsX maveric: Versiones para desarrolladores </div>
+					<div id="autor">
+						Publicado hace 19 horas en <a href="#">interfaz y usuario</a> por <a href="#">@antauri7</a>
+					</div>
+					<div id="sociales">
+						<a href="#">
+							<!-- <div class="g-plusone" data-size="medium" data-href="http://www.codejobs.biz/"></div> -->
+						</a>
+						<a href="#">
+							<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.codejobs.biz/" data-via="antauri7" data-lang="es">Twittear</a> -->						</a>
+						<a href="#">
+							<!-- <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: es_ES </script>
+							<script type="IN/Share" data-url="http://www.codejobs.biz/" data-counter="right"></script> -->						</a>
+					</div>
+					<div id="imagenNoticia">
+						<img src="img/noticias/4.png">
+						<a href="blog.html">
+							<div id="verMasImg">
+								Ver Noticia Completa
+							</div>
+						</a>
+					</div>
+					<div id="informacionNoticia">
+						<div class="textoNoticia">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. 
+						</div>
+					</div>
+				</div>
+
+				<div class="noticia">
+					<div class="tituloNoticia"> google glass el futuro mas cercano </div>
+					<div id="autor">
+						Publicado hace 19 horas en <a href="#">interfaz y usuario</a> por <a href="#">@antauri7</a>
+					</div>
+					<div id="sociales">
+						<a href="#">
+							<!-- <div class="g-plusone" data-size="medium" data-href="http://www.codejobs.biz/"></div> -->
+						</a>
+						<a href="#">
+							<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.codejobs.biz/" data-via="antauri7" data-lang="es">Twittear</a> -->						</a>
+						<a href="#">
+							<!-- <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: es_ES </script>
+							<script type="IN/Share" data-url="http://www.codejobs.biz/" data-counter="right"></script> -->						</a>
+					</div>
+					<div id="imagenNoticia">
+						<img src="img/noticias/5.png">
+						<a href="blog.html">
+							<div id="verMasImg">
+								Ver Noticia Completa
+							</div>
+						</a>
+					</div>
+					<div id="informacionNoticia">
+						<div class="textoNoticia">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. 
+						</div>
+					</div>
+				</div>
+				<div id="adSense"><img src="img/adSense/ad.png"></div>
+				<div class="noticia">
+					<div class="tituloNoticia"> nueva version de dispositivos motorola, la tendencia movil. </div>
+					<div id="autor">
+						Publicado hace 19 horas en <a href="#">interfaz y usuario</a> por <a href="#">@antauri7</a>
+					</div>
+					<div id="sociales">
+						<a href="#">
+							<!-- <div class="g-plusone" data-size="medium" data-href="http://www.codejobs.biz/"></div> -->
+						</a>
+						<a href="#">
+							<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.codejobs.biz/" data-via="antauri7" data-lang="es">Twittear</a> -->						</a>
+						<a href="#">
+							<!-- <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: es_ES </script>
+							<script type="IN/Share" data-url="http://www.codejobs.biz/" data-counter="right"></script> -->						</a>
+					</div>
+					<div id="imagenNoticia">
+						<img src="img/noticias/6.png">
+						<a href="blog.html">
+							<div id="verMasImg">
+								Ver Noticia Completa
+							</div>
+						</a>
+					</div>
+					<div id="informacionNoticia">
+						<div class="textoNoticia">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. 
+						</div>
+					</div>
+				</div>
+
+				<div class="noticia">
+					<div class="tituloNoticia"> nuevos servicios de localizacion geografia </div>
+					<div id="autor">
+						Publicado hace 19 horas en <a href="#">interfaz y usuario</a> por <a href="#">@antauri7</a>
+					</div>
+					<div id="sociales">
+						<a href="#">
+							<!-- <div class="g-plusone" data-size="medium" data-href="http://www.codejobs.biz/"></div> -->
+						</a>
+						<a href="#">
+							<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.codejobs.biz/" data-via="antauri7" data-lang="es">Twittear</a> -->						</a>
+						<a href="#">
+							<!-- <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: es_ES </script>
+							<script type="IN/Share" data-url="http://www.codejobs.biz/" data-counter="right"></script> -->						</a>
+					</div>
+					<div id="imagenNoticia">
+						<img src="img/noticias/7.png">
+						<a href="blog.html">
+							<div id="verMasImg">
+								Ver Noticia Completa
+							</div>
+						</a>
+					</div>
+					<div id="informacionNoticia">
+						<div class="textoNoticia">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. 
+						</div>
+					</div>
+				</div>
+				
+				<div class="noticia">
+					<div class="tituloNoticia"> 4k maxima resolucion y colores reales. </div>
+					<div id="autor">
+						Publicado hace 19 horas en <a href="#">interfaz y usuario</a> por <a href="#">@antauri7</a>
+					</div>
+					<div id="sociales">
+						<a href="#">
+							<!-- <div class="g-plusone" data-size="medium" data-href="http://www.codejobs.biz/"></div> -->
+						</a>
+						<a href="#">
+							<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.codejobs.biz/" data-via="antauri7" data-lang="es">Twittear</a> -->						</a>
+						<a href="#">
+							<!-- <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: es_ES </script>
+							<script type="IN/Share" data-url="http://www.codejobs.biz/" data-counter="right"></script> -->						</a>
+					</div>
+					<div id="imagenNoticia">
+						<img src="img/noticias/8.png">
+						<a href="blog.html">
+							<div id="verMasImg">
+								Ver Noticia Completa
+							</div>
+						</a>
+					</div>
+					<div id="informacionNoticia">
+						<div class="textoNoticia">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. 
+						</div>
+					</div>
+				</div>
+
+				<div id="noPaginas">
+					<center>
+						<div class="pagina"> 1 </div>
+						<div class="pagina"> 2 </div>
+						<div class="pagina"> 3 </div>
+						<div class="pagina"> 4 </div>
+						<div class="pagina"> 5 </div>
+						<div class="pagina"> 6 </div>
+						<div class="pagina"> 7 </div>
+						<div class="pagina"> 8 </div>
+						<div class="pagina"> 9 </div>
+						<div class="pagina"> 10 </div>
+						<div class="pagina"> Siguiente </div>
+					</center>
+				</div>
+
+			</div>
+
+			<div id="lateral">
+				<!-- -->
+				<div class="fb-like-box" data-href="https://www.facebook.com/codejobs" data-width="295" data-show-faces="true" data-stream="false" data-show-border="true" data-header="false"></div>
+				
+				<div class="transmision">
+					<h5>Transmision en Vivo</h5>
+					<h6>Todos los Sabados en <a href="#">CodeJobsTV</a></h6>
+					<div id="horariosTV">
+						<div class="bandera">
+							<img src="img/bandera/mexico.png">
+						</div>
+						<div class="hora">11:00 am.</div>
+
+						<div class="bandera">
+							<img src="img/bandera/peru.png">
+							<img src="img/bandera/colombia.png">
+							<img src="img/bandera/ecuador.png">
+							<img src="img/bandera/panama.png">
+						</div>
+						<div class="hora">12:00 pm.</div>
+
+						<div class="bandera">
+							<img src="img/bandera/venezuela.png">
+						</div>
+						<div class="hora">12:30 pm.</div>
+
+						<div class="bandera">
+							<img src="img/bandera/chile.png">
+							<img src="img/bandera/argentina.png">
+							<img src="img/bandera/paraguay.png">
+						</div>
+						<div class="hora">02:00 pm.</div>
+
+						<div class="bandera">
+							<img src="img/bandera/uruguay.png">
+						</div>
+						<div class="hora">03:00 pm.</div>
+
+						<div class="bandera">
+							<img src="img/bandera/espania.png">
+						</div>
+						<div class="hora">06:00 pm.</div>
+					</div>
+				</div>
+
+				<div id="relevantes">
+					<h1> +Relevantes </h1>
+					<div class="relevante1">
+						<div class="noRelevante"> 1 </div>
+						<div class="textoRelevante"> Noticia Importante. </div>
+					</div>
+					
+					<div class="relevante2">
+						<div class="noRelevante"> 2 </div>
+						<div class="textoRelevante"> Noticia Importante. </div>
+					</div>
+					
+					<div class="relevante3">
+						<div class="noRelevante"> 3 </div>
+						<div class="textoRelevante"> Noticia Importante. </div>
+					</div>
+					
+					<div class="relevante4">
+						<div class="noRelevante"> 4 </div>
+						<div class="textoRelevante"> Noticia Importante. </div>
+					</div>
+					
+					<div class="relevante5">
+						<div class="noRelevante"> 5 </div>
+						<div class="textoRelevante"> Noticia Importante. </div>
+					</div>
+					
+					<div class="relevante6">
+						<div class="noRelevante"> 6 </div>
+						<div class="textoRelevante"> Noticia Importante. </div>
+					</div>
+				</div>
+
+				<div id="encuesta">
+					<h2>Encuesta</h2>
+					<div id="contenedorEncuesta">
+						<form>
+							<div class="rdBtn"><input type="radio" value="Excelente" class="radioButton"></div>
+							<div class="lbl">Excelente</div>
+
+							<div class="rdBtn"><input type="radio" value="Bueno" class="radioButton"></div>
+							<div class="lbl">Bueno</div>
+
+							<div class="rdBtn"><input type="radio" value="Regular" class="radioButton"></div>
+							<div class="lbl">Regular</div>
+
+							<div class="rdBtn"><input type="radio" value="Malo" class="radioButton"></div>
+							<div class="lbl">Malo</div>
+
+							<div class="rdBtn"><input type="radio" value="Pesimo" class="radioButton"></div>
+							<div class="lbl">Pesimo</div>
+
+							<div class="btnEnviar">
+								<input type="submit" value="Enviar" class="btnEnviarEncuesta">
+							</div>
+						</form>
+					</div>
+				</div>
+
+				<div id="rentaEspacio1">
+					<h1>¡ RENTAME ! </h1>
+				</div>
+				<div id="rentaEspacio2">
+					<h1>¡ RENTAME ! </h1>
+				</div>
+				<div id="rentaEspacio1">
+					<h1>¡ RENTAME ! </h1>
+				</div>
+				<div id="rentaEspacio2">
+					<h1>¡ RENTAME ! </h1>
+				</div>
+				<div id="rentaEspacio1">
+					<h1>¡ RENTAME ! </h1>
+				</div>
+				<div id="rentaEspacio2">
+					<h1>¡ RENTAME ! </h1>
+				</div>
+				
+			</div>
+
+			<!-- Pie de Pagina -->
+			<div id="footer">
+				<a href="#"> Publicidad </a> |
+				<a href="#"> Enlaces </a> |
+				<a href="contacto.html"> Contáctenos </a> <br/> <br/>
+				Este sitio está bajo una licencia <a href="#">Creative Commons Attribution 3.0 License</a>. Desarrollado por <a href="#">Miguel Angel (@antauri7)</a>.
+			</div>
+		</div>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>

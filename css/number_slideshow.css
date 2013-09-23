@@ -1,0 +1,176 @@
+.number_slideshow{
+    line-height: 20px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    display: none;
+}
+.number_slideshow .number_slideshow_nav{
+    filter: alpha(opacity=60);
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    width: 310px;
+    float: left;
+}
+
+#infoGaleria{
+    background-color: rgba(0, 0, 0, 0.7);
+    background: url("rgba.php?name=black&a=70");
+    height: 65px;
+    margin-top: -75px;
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 16px;
+    color: white;
+    -webkit-transition: all 1s ease;
+    width: 644px;
+}
+
+.number_slideshow .number_slideshow_nav li{
+    box-shadow:2px 2px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow:2px 2px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:2px 2px 3px rgba(0, 0, 0, 0.5);
+    -o-box-shadow:2px 2px 3px rgba(0, 0, 0, 0.5);
+    -khtml-box-shadow:2px 2px 3px rgba(0, 0, 0, 0.5);
+    margin-left: 6px;
+    position: relative;
+    float: left;
+}
+.number_slideshow .number_slideshow_nav li a{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.number_slideshow ul{
+    margin: 0px;
+    background-position:center center;
+    background-repeat: no-repeat;
+}
+.number_slideshow ul li{
+     border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    position: absolute;
+}
+.number_slideshow ul li p{
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    font-size: 13px;
+    line-height: 23px;
+}
+.number_slideshow ul li a{
+    text-decoration: none;
+}
+.number_slideshow ul li a img{
+    border: none;
+}
+.number_slideshow ul li a img alt{
+    border: none;
+}
+
+
+@media screen and (max-width: 1024px){
+    #infoGaleria{
+        width: 515px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #infoGaleria{
+        width: 505px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #infoGaleria{
+        width: 506px;
+    }
+}
+
+@media screen and (max-width: 685px){
+    #infoGaleria{
+        width: 420px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    #infoGaleria{
+        width: 635px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #infoGaleria{
+        width: 590px;
+    }
+}
+
+@media screen and (max-width: 568px){
+    #infoGaleria{
+        width: 558px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #infoGaleria{
+        width: 470px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    #infoGaleria{
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #infoGaleria{
+        width: 307px;
+    }
+}
+
+@media screen and (max-width: 240px){
+    .number_slideshow .number_slideshow_nav{
+        width: 220px;
+    }
+    #infoGaleria{
+        width: 235px;
+    }
+}
+
+@media screen and (max-width: 250px){
+    .number_slideshow .number_slideshow_nav{
+        width: 220px;
+    }
+    #infoGaleria{
+        width: 235px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+

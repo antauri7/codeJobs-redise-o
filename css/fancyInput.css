@@ -1,0 +1,91 @@
+@keyframes caret{ 
+	50%{ opacity:0.1; transform:scaleY(.8); } 
+}
+@-webkit-keyframes caret{
+	50%{ opacity:0.1; -webkit-transform:scaleY(.8); } 
+}
+
+.fancyInput :-moz-placeholder{ color:rgba(74,74,74,0.2); } /* deprecated. but works for now. should use double '::'*/
+.fancyInput :-webkit-placeholder{ color:rgba(74,74,74,0.2); }
+
+.fancyInput{ display:inline-block; letter-spacing: 1px; text-shadow:0 2px 5px rgba(0,0,0,.6); white-space:nowrap; width:auto; font-family:'Fjalla One', sans-serif; position:relative; }
+.fancyInput.textarea{ white-space:normal; overflow:auto; }
+	.fancyInput input, textarea{ color:transparent; position:absolute; z-index:2; width:100%; border:0; outline:0; top:0px; left:0; background:none; padding:inherit; padding-bottom:0; font-family:'Fjalla One', sans-serif; font-size:inherit; letter-spacing:-1px;  -moz-box-sizing:border-box; -webkit-box-sizing:border-box; }
+	.fancyInput input{ top:1px; left:-1px; padding-right:0; }
+	.fancyInput textarea{ word-break:break-all; overflow:hidden; height:100%; }
+	.fancyInput > div{ display:inline-block; }
+	.fancyInput.textarea > div{ width:99.9%%; }
+
+	.fancyInput *:focus ~ .caret,
+	.fancyInput *:focus ~ div .caret{ opacity:.8; box-shadow:0 0 8px gray; -webkit-animation:0.4s 40ms caret infinite; animation:0.4s 40ms caret infinite; }
+	.fancyInput .caret:only-child{  }
+	.fancyInput .caret{ font-weight:normal; opacity:0; display:inline-block; width:3px; margin-left:-3px; background:gray; border-radius:4px; -moz-user-select:none; }
+	.fancyInput span:not(.deleted) ~ .caret{ position:absolute; margin:0; } /* only Caret which is  */
+
+		/* lettes */
+		.fancyInput > div span{ -webkit-transition:100ms cubic-bezier(0.08, 0.6, 0.56, 1.4); transition:100ms cubic-bezier(0.08, 0.6, 0.56, 1.4); display:inline-block; position:relative; }
+		.fancyInput > input[type=password] + div span:empty::after{ content:'●'; display:inline; }
+		.fancyInput > div .deleted{ opacity:0; -webkit-transition:140ms; transition:140ms; -webkit-transform:translateX(12px); transform:translateX(12px); }
+
+		/*.fancyInput > div span:last-of-type ~ br{ display:block; white-space:pre; }*/
+		/*.fancyInput br:last-of-type + .caret{ position:static; display:inline-block; }*/
+		
+		/* text effects */
+		.fancyInput > div span.state1{ -webkit-transform:translateY(-25px) rotateX(90deg); transform:translateY(-25px) rotateX(90deg); }
+		.fancyInput > div span.state2{ -webkit-transform:translateY(25px) rotateX(90deg); transform:translateY(25px) rotateX(90deg); }
+
+.fancyInput{ display:inline-block; box-shadow: 0px 0px 10px gray; max-width:440px; min-width:440px; font-size:16px; color: black; vertical-align:middle; line-height:1.3; overflow:hidden; text-align:left;  padding:8px 20px; background:rgba(0,0,0,.1); border-radius:10px; margin-top: 15px; }
+.fancyInput.textarea{ line-height:normal; font-size:16px; max-width:50%; min-height:160px; max-height:160px; }
+.fancyInput:active{box-shadow: 0px 0px 0px gray; box-shadow: inset 0px 0px 10px gray;}
+
+@media screen and (max-width: 1024px){
+	.fancyInput{
+		max-width:400px;
+		min-width:400px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.fancyInput{
+		max-width:400px;
+		min-width:400px;
+	}
+}
+
+@media screen and (max-width: 640px){
+	.fancyInput{
+		max-width:350px;
+		min-width:350px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.fancyInput{
+		max-width:300px;
+		min-width:300px;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.fancyInput{
+		max-width:230px;
+		min-width:230px;
+	}
+}
+
+@media screen and (max-width: 240px){
+	.fancyInput{
+		max-width:160px;
+		min-width:160px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
